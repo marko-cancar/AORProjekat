@@ -1,0 +1,98 @@
+0(bezadresne i skok)	0(bezadresne)	0	0	0	0	0 - RTS = 1B
+										0	0	0	0	1 - RTI
+										0	0	0	1	0 - ASR
+										0	0	0	1	1 - LSR	 			
+										0	0	1	0	0 - ROR				
+										0	0	1	0	1 - RORC				
+										0	0	1	1	0 - ASL				
+										0	0	1	1	1 - LSL				
+										0	1	0	0	0 - ROL				
+										0	1	0	0	1 - ROLC				
+										0	1	0	1	0 - INTE
+										0	1	0	1	1 - INTD
+										0	1	1	0	0 - TRPE
+										0	1	1	0	1 - TRPD
+										0	1	1	1	0 - STIVTP
+										0	1	1	1	1 - STSP
+
+			
+			1(skok)	0(uslovni)	0	0	0	0 - BEQL(z=1) + pomjeraj (8 bita sa znakom) = 2B
+								0	0	0	1 - BNEQ(z=0)
+								0	0	1	0 - BNEG(n=1)
+								0	0	1	1 - BNNG(n=0)
+								0	1	0	0 - BOVF(v=1)
+								0	1	0	1 - BNVF(v=0)
+								0	1	1	0 - BCR(c=1)
+								0	1	1	1 - BNCR(c=0)
+								1	0	0	0 - BGRT
+								1	0	0	1 - BGRE
+								1	0	1	0 - BLSS
+								1	0	1	1 - BLEQ
+								1	1	0	0 - BGRTU
+								1	1	0	1 - BGREU
+								1	1	1	0 - BLSSU
+								1	1	1	1 - BLEQU
+		
+					1(bezuslovni)	0	0	0	0 - JMP + apsolutni skok (16 bita) = 3B
+									0	0	0	1 - JSR
+									0	0	1	0 - INT + broj ulaza (8 bita) = 2B
+
+
+
+1(adresne)	0	0	0	0 - LD													
+			0	0	0	1 - ST
+			0	0	1	0 - ADD
+			0	0	1	1 - SUB
+			0	1	0	0 - AND
+			0	1	0	1 - OR
+			0	1	1	0 - XOR
+			0	1	1	1 - NOT
+
+						0(regdir)	0	0 - R[0] = 1B
+									0	1 - R[1]
+									1	0 - BR
+									1	1 - XR
+
+						1(other)	0	0 - immed + podatak (16 bita) = 3B
+									0	1 - base + (BR) pomjeraj (16 bita sa znakom) = 3B
+									1	0 - index + (XR) pomjeraj (8 bita sa znakom) = 2B
+									1	1 - baseindex (BR,XR) pomjeraj (8 bita sa znakom) = 2B
+	
+
+
+intr1
+intr2
+intr3
+PSWI -> PSW15..0
+IMR15..0
+intr3>intr2>intr1
+inm
+
+PC + PSW na stek
+PSWL0, PSWL1 update
+
+IVT
+0.	0 trap
+   	1
+1.	2 spoljasnji nemaskirajuci prekid
+	3
+2.	4 greska u adresiranju
+	5
+3.	6 greska u kodu operacije
+	7	
+4.	8
+	9
+5.	10 intr1adr
+	11
+6.	12 intr2adr
+	13
+7.	14 intr3adr
+	15
+
+
+
+
+
+
+
+	

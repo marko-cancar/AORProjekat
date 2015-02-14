@@ -1,0 +1,16 @@
+simulator.gui.RectanglePresentation	-1	2	180	180	340	400
+simulator.gui.RectanglePresentation	-1	2	200	200	300	280
+simulator.gui.ClickablePresentationWidthHeight	-1	2	220	220	260	50	5	//bus
+simulator.gui.ClickablePresentationWidthHeight	-1	2	220	280	120	50	6	//fetch
+simulator.gui.ClickablePresentationWidthHeight	-1	2	220	340	120	50	9	//addr
+simulator.gui.ClickablePresentationWidthHeight	-1	2	220	400	120	50	7	//exec
+simulator.gui.ClickablePresentationWidthHeight	-1	2	360	280	120	170	8	//intr
+simulator.gui.ClickablePresentationWidthHeight	-1	2	200	500	300	50	10	//uprav
+simulator.gui.StringPresentation	-1	2	340	475	oper
+simulator.gui.StringPresentation	-1	2	340	575	CPU
+simulator.gui.StringInRectanglePresentation	-1	2	220	220	260	50	bus
+simulator.gui.StringInRectanglePresentation	-1	2	220	280	120	50	fetch
+simulator.gui.StringInRectanglePresentation	-1	2	220	340	120	50	addr
+simulator.gui.StringInRectanglePresentation	-1	2	220	400	120	50	exec
+simulator.gui.StringInRectanglePresentation	-1	2	360	280	120	170	intr
+simulator.gui.StringInRectanglePresentation	-1	2	200	500	300	50	uprav

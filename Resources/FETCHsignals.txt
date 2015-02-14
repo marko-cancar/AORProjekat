@@ -1,0 +1,8 @@
+simulator.SignalSimle	600	IB
+simulator.SignalSimle	601	PCout
+simulator.SignalSimle	602	IR1out
+simulator.SignalSimle	603	IR2out
+simulator.SignalSimle	604	IR3out
+simulator.SignalSimle	605	IR4out
+simulator.SignalSimle	606	IR23out
+simulator.SignalSimle	607	IR34out

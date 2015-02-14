@@ -1,0 +1,31 @@
+simulator.digitalcomponents.NotGate	300
+simulator.digitalcomponents.DFlipFlop	 	301
+simulator.digitalcomponents.DFlipFlop	 	302
+simulator.digitalcomponents.AndGate	303	2
+simulator.digitalcomponents.AndGate	304	2
+simulator.digitalcomponents.NotGate	305
+simulator.digitalcomponents.DFlipFlop	 	306
+simulator.digitalcomponents.DFlipFlop	 	307
+simulator.digitalcomponents.AndGate	308	2
+simulator.digitalcomponents.AndGate	309	2
+simulator.digitalcomponents.MemModule	310
+simulator.digitalcomponents.TriStateBuffer	311	8
+simulator.digitalcomponents.OrGate	312	2
+simulator.digitalcomponents.RSFlipFlop	 	313
+simulator.digitalcomponents.NotGate	314
+simulator.digitalcomponents.TriStateBuffer	315	1
+simulator.digitalcomponents.DFlipFlop	 	316
+simulator.digitalcomponents.RSFlipFlop	 	317
+simulator.digitalcomponents.OrGate	318	2
+simulator.digitalcomponents.AndGate	319	2
+simulator.digitalcomponents.RSFlipFlop	 	320
+simulator.digitalcomponents.DFlipFlop	 	321
+simulator.digitalcomponents.OrGate	322	2
+simulator.digitalcomponents.RSFlipFlop	 	323
+simulator.digitalcomponents.NotGate	324
+simulator.digitalcomponents.AndGate	325	2
+simulator.digitalcomponents.AndGate	326	2
+simulator.digitalcomponents.RegisterComponent	MEMACC	327	8	0
+simulator.digitalcomponents.RegisterComponent	TIME=5	328	8	5
+simulator.digitalcomponents.CMP	CMP0	329
+simulator.digitalcomponents.RegisterComponent	ZERO	330	8	0

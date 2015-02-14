@@ -1,0 +1,30 @@
+simulator.gui.StringPresentation	-1	5	196	190	IB[15..0]
+simulator.gui.SignalPresentation	600	5	200	200	200	800
+simulator.gui.RegisterComponentPresentation	500	5	400	100	1	1
+simulator.gui.RegisterComponentPresentation	501	5	400	300	1	1
+simulator.gui.SignalPresentation	501	5	478	391	478	405	330	405
+simulator.gui.ComposerPresentation	508	5	323	375
+simulator.gui.SignalPresentation	506	5	330	382	335	382	335	360
+simulator.gui.ZeroRegisterComponentPresentation	507	5	332	356	1	1
+simulator.gui.TriStateBufferPresentation	505	5	240	387	1	1
+simulator.gui.SignalPresentation	507	5	302	397	322	397
+simulator.gui.SignalPresentation	600	5	200	397	239	397
+simulator.gui.RegisterComponentPresentation	502	5	400	500	1	1
+simulator.gui.RegisterComponentPresentation	503	5	700	500	1	1
+simulator.gui.SignalPresentation	501	5	478	405	478	500
+simulator.gui.SignalPresentation	501	5	478	405	778	405	778	500
+simulator.gui.ComposerPresentation	509	5	323	675
+simulator.gui.TriStateBufferPresentation	506	5	240	687	1	1
+simulator.gui.SignalPresentation	502	5	478	591	478	682	330	682
+simulator.gui.SignalPresentation	503	5	778	591	778	708	330	708
+simulator.gui.SignalPresentation	505	5	302	697	322	697
+simulator.gui.SignalPresentation	600	5	200	697	239	697
+simulator.gui.StringPresentation	-1	5	358	138	incMAR
+simulator.gui.StringPresentation	-1	5	565	138	ldMAR
+simulator.gui.StringPresentation	-1	5	565	159	CLK
+simulator.gui.StringPresentation	-1	5	565	338	ldMDR
+simulator.gui.StringPresentation	-1	5	565	359	CLK
+simulator.gui.StringPresentation	-1	5	565	538	ldDL
+simulator.gui.StringPresentation	-1	5	865	538	ldDH
+simulator.gui.StringPresentation	-1	5	266	432	MDRout
+simulator.gui.StringPresentation	-1	5	266	732	Dout

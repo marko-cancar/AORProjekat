@@ -1,0 +1,62 @@
+simulator.digitalcomponents.RegisterComponent	A	7100	16	0
+simulator.digitalcomponents.RegisterComponent	B	7101	16	0
+simulator.digitalcomponents.ALU	ALU	7110
+simulator.digitalcomponents.MultiplexerComponent	MX3	7123	16	2	1
+simulator.digitalcomponents.MultiplexerComponent	MX2	7122	1	4	2
+simulator.digitalcomponents.MultiplexerComponent	MX1	7121	1	4	2
+simulator.digitalcomponents.TriStateBuffer	7131	16	Aout
+simulator.digitalcomponents.TriStateBuffer	7132	16	AHout
+simulator.digitalcomponents.RSFlipFlop	 	7200
+simulator.digitalcomponents.OrGate	7210	2
+simulator.digitalcomponents.OrGate	7211	2
+simulator.digitalcomponents.AndGate	7212	2
+simulator.digitalcomponents.AndGate	7213	2
+simulator.digitalcomponents.AndGate	7214	2
+simulator.digitalcomponents.AndGate	7215	2
+simulator.digitalcomponents.NotGate	7216
+simulator.digitalcomponents.NotGate	7217
+simulator.digitalcomponents.RSFlipFlop	 	7201
+simulator.digitalcomponents.OrGate	7220	2
+simulator.digitalcomponents.OrGate	7221	2
+simulator.digitalcomponents.AndGate	7222	2
+simulator.digitalcomponents.AndGate	7223	2
+simulator.digitalcomponents.AndGate	7224	2
+simulator.digitalcomponents.AndGate	7225	2
+simulator.digitalcomponents.NotGate	7226
+simulator.digitalcomponents.NotGate	7227
+simulator.digitalcomponents.RSFlipFlop	 	7202
+simulator.digitalcomponents.OrGate	7230	2
+simulator.digitalcomponents.OrGate	7231	2
+simulator.digitalcomponents.AndGate	7232	2
+simulator.digitalcomponents.AndGate	7233	2
+simulator.digitalcomponents.AndGate	7234	2
+simulator.digitalcomponents.AndGate	7235	2
+simulator.digitalcomponents.NotGate	7236
+simulator.digitalcomponents.NotGate	7237
+simulator.digitalcomponents.RSFlipFlop	 	7203
+simulator.digitalcomponents.OrGate	7240	2
+simulator.digitalcomponents.OrGate	7241	2
+simulator.digitalcomponents.AndGate	7242	2
+simulator.digitalcomponents.AndGate	7243	2
+simulator.digitalcomponents.AndGate	7244	2
+simulator.digitalcomponents.AndGate	7245	2
+simulator.digitalcomponents.NotGate	7246
+simulator.digitalcomponents.NotGate	7247
+simulator.digitalcomponents.RSFlipFlop	 	7204
+simulator.digitalcomponents.OrGate	7250	2
+simulator.digitalcomponents.OrGate	7251	2
+simulator.digitalcomponents.AndGate	7252	2
+simulator.digitalcomponents.AndGate	7253	2
+simulator.digitalcomponents.AndGate	7254	2
+simulator.digitalcomponents.AndGate	7255	2
+simulator.digitalcomponents.NotGate	7256
+simulator.digitalcomponents.NotGate	7257
+simulator.digitalcomponents.RSFlipFlop	 	7205
+simulator.digitalcomponents.OrGate	7260	2
+simulator.digitalcomponents.OrGate	7261	2
+simulator.digitalcomponents.AndGate	7262	2
+simulator.digitalcomponents.AndGate	7263	2
+simulator.digitalcomponents.AndGate	7264	2
+simulator.digitalcomponents.AndGate	7265	2
+simulator.digitalcomponents.NotGate	7266
+simulator.digitalcomponents.NotGate	7267

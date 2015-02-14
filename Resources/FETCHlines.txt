@@ -1,0 +1,55 @@
+simulator.gui.SignalPresentation	600	6	200	100	200	1200
+simulator.gui.SignalPresentation	600	6	300	210	200	210
+simulator.gui.StringPresentation	-1	6	196	90	IB[15..0]
+simulator.gui.RegisterComponentPresentation	600	6	400	100	1	1
+simulator.gui.TriStateBufferPresentation	601	6	300	200	1	1
+simulator.gui.SignalPresentation	601	6	478	192	478	210	362	210
+simulator.gui.RegisterComponentPresentation	602	6	400	300	1	1
+simulator.gui.TriStateBufferPresentation	603	6	300	400	1	1
+simulator.gui.SignalPresentation	601	6	478	392	478	410	362	410
+simulator.gui.SignalPresentation	600	6	300	410	200	410
+simulator.gui.RegisterComponentPresentation	604	6	400	500	1	1
+simulator.gui.TriStateBufferPresentation	605	6	300	600	1	1
+simulator.gui.SignalPresentation	603	6	478	592	478	610	362	610
+simulator.gui.SignalPresentation	600	6	300	610	200	610
+simulator.gui.SignalPresentation	603	6	400	610	400	660	350	660	350	725	341	725
+simulator.gui.RegisterComponentPresentation	606	6	400	700	1	1
+simulator.gui.TriStateBufferPresentation	607	6	300	800	1	1
+simulator.gui.SignalPresentation	604	6	478	792	478	810	362	810
+simulator.gui.SignalPresentation	600	6	300	810	200	810
+simulator.gui.SignalPresentation	604	6	377	810	377	780	350	780	350	754	341	754
+simulator.gui.TriStateBufferPresentation	610	6	250	730	1	1
+simulator.gui.SignalPresentation	600	6	200	740	250	740
+simulator.gui.SignalPresentation	606	6	335	740	312	740
+simulator.gui.RegisterComponentPresentation	608	6	400	1000	1	1
+simulator.gui.TriStateBufferPresentation	609	6	300	1100	1	1
+simulator.gui.SignalPresentation	605	6	478	1092	478	1110	362	1110
+simulator.gui.SignalPresentation	600	6	300	1110	200	1110
+simulator.gui.TriStateBufferPresentation	611	6	250	950	1	1
+simulator.gui.SignalPresentation	604	6	377	810	377	944	342	944
+simulator.gui.SignalPresentation	605	6	377	1110	377	976	342	976
+simulator.gui.ComposerPresentation	612	6	336	720
+simulator.gui.ComposerPresentation	613	6	336	940
+simulator.gui.SignalPresentation	607	6	312	960	335	960
+simulator.gui.SignalPresentation	600	6	200	960	250	960
+simulator.gui.StringPresentation	-1	6	358	138	incPC
+simulator.gui.StringPresentation	-1	6	565	138	ldPC
+simulator.gui.StringPresentation	-1	6	565	338	ldIR1
+simulator.gui.StringPresentation	-1	6	565	538	ldIR2
+simulator.gui.StringPresentation	-1	6	565	738	ldIR3
+simulator.gui.StringPresentation	-1	6	565	1038	ldIR4
+simulator.gui.StringPresentation	-1	6	327	248	PCout
+simulator.gui.StringPresentation	-1	6	327	448	IR1out
+simulator.gui.StringPresentation	-1	6	327	648	IR2out
+simulator.gui.StringPresentation	-1	6	327	848	IR3out
+simulator.gui.StringPresentation	-1	6	327	1148	IR4out
+simulator.gui.StringPresentation	-1	6	277	772	IR23out
+simulator.gui.StringPresentation	-1	6	277	992	IR34out
+simulator.gui.DecoderPresentation	620	6	100	1300	1	1
+simulator.gui.DecoderPresentation	621	6	100	1450	1	1
+simulator.gui.DecoderPresentation	622	6	100	1600	1	1
+simulator.gui.DecoderPresentation	623	6	350	1300	1	1
+simulator.gui.DecoderPresentation	624	6	600	1300	1	1
+simulator.gui.DecoderPresentation	625	6	850	1300	1	1
+simulator.gui.DecoderPresentation	626	6	1100	1300	1	1
+simulator.gui.DecoderPresentation	627	6	100	1750	1	1

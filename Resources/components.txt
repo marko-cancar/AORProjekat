@@ -1,0 +1,17 @@
+simulator.digitalcomponents.InGate	CLKCPU	0	0	19
+simulator.digitalcomponents.InGate	CLKMEM	1	0	39
+simulator.digitalcomponents.InGate	CLKBUS	2	0	29
+simulator.digitalcomponents.OrGate	3	2
+simulator.digitalcomponents.OrGate	4	2
+simulator.digitalcomponents.OrGate	5	2
+simulator.digitalcomponents.OrGate	6	2
+simulator.digitalcomponents.OrGate	7	2
+simulator.digitalcomponents.OrGate	8	2
+simulator.digitalcomponents.OrGate	9	2
+simulator.digitalcomponents.OrGate	10	2
+simulator.digitalcomponents.OrGate	11	2
+simulator.digitalcomponents.OrGate	12	2
+simulator.digitalcomponents.OrGate	13	2
+simulator.digitalcomponents.OrGate	14	2
+simulator.digitalcomponents.OrGate	15	2
+simulator.digitalcomponents.InGate	IN	16	0	0

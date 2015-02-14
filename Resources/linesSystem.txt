@@ -1,0 +1,4 @@
+simulator.gui.ClickablePresentationWidthHeight	-1	1	200	100	200	200	2	//cpu
+simulator.gui.ClickablePresentationWidthHeight	-1	1	600	100	200	200	3	//mem
+simulator.gui.StringInRectanglePresentation	-1	1	200	100	200	200	CPU
+simulator.gui.StringInRectanglePresentation	-1	1	600	100	200	200	MEM
