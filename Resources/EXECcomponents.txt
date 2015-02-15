@@ -4,6 +4,8 @@ simulator.digitalcomponents.ALU	ALU	7110
 simulator.digitalcomponents.MultiplexerComponent	MX3	7123	16	2	1
 simulator.digitalcomponents.MultiplexerComponent	MX2	7122	1	4	2
 simulator.digitalcomponents.MultiplexerComponent	MX1	7121	1	4	2
+simulator.digitalcomponents.Coder	CD1	7141	4
+simulator.digitalcomponents.Coder	CD2	7142	4
 simulator.digitalcomponents.TriStateBuffer	7131	16	Aout
 simulator.digitalcomponents.TriStateBuffer	7132	16	AHout
 simulator.digitalcomponents.RSFlipFlop	 	7200
@@ -60,3 +62,71 @@ simulator.digitalcomponents.AndGate	7264	2
 simulator.digitalcomponents.AndGate	7265	2
 simulator.digitalcomponents.NotGate	7266
 simulator.digitalcomponents.NotGate	7267
+simulator.digitalcomponents.RSFlipFlop	 	7206
+simulator.digitalcomponents.OrGate	7270	2
+simulator.digitalcomponents.OrGate	7271	2
+simulator.digitalcomponents.AndGate	7274	2
+simulator.digitalcomponents.AndGate	7275	2
+simulator.digitalcomponents.NotGate	7276
+simulator.digitalcomponents.RSFlipFlop	 	7207
+simulator.digitalcomponents.OrGate	7280	2
+simulator.digitalcomponents.OrGate	7281	2
+simulator.digitalcomponents.AndGate	7284	2
+simulator.digitalcomponents.AndGate	7285	2
+simulator.digitalcomponents.NotGate	7286
+simulator.digitalcomponents.RSFlipFlop	 	7290
+simulator.digitalcomponents.AndGate	7301	2
+simulator.digitalcomponents.AndGate	7303	16
+simulator.digitalcomponents.AndGate	7304	2
+simulator.digitalcomponents.AndGate	7305	2
+simulator.digitalcomponents.AndGate	7306	2
+simulator.digitalcomponents.AndGate	7307	2
+simulator.digitalcomponents.AndGate	7308	2
+simulator.digitalcomponents.AndGate	7313	2
+simulator.digitalcomponents.AndGate	7314	3
+simulator.digitalcomponents.AndGate	7315	3
+simulator.digitalcomponents.AndGate	7317	2
+simulator.digitalcomponents.AndGate	7318	3
+simulator.digitalcomponents.AndGate	7319	3
+simulator.digitalcomponents.OrGate	7302	15
+simulator.digitalcomponents.OrGate	7309	4
+simulator.digitalcomponents.OrGate	7310	4
+simulator.digitalcomponents.OrGate	7311	4
+simulator.digitalcomponents.OrGate	7316	2
+simulator.digitalcomponents.OrGate	7320	2
+simulator.digitalcomponents.OrGate	7321	2
+simulator.digitalcomponents.NotGate	7312
+simulator.digitalcomponents.NotGate	7322
+simulator.digitalcomponents.NotGate	7323
+simulator.digitalcomponents.NotGate	7324
+simulator.digitalcomponents.NotGate	7325
+simulator.digitalcomponents.NotGate	7326
+simulator.digitalcomponents.NotGate	7327
+simulator.digitalcomponents.NotGate	7328
+simulator.digitalcomponents.NotGate	7329
+simulator.digitalcomponents.NotGate	7330
+simulator.digitalcomponents.NotGate	7331
+simulator.digitalcomponents.NotGate	7332
+simulator.digitalcomponents.NotGate	7333
+simulator.digitalcomponents.NotGate	7334
+simulator.digitalcomponents.NotGate	7335
+simulator.digitalcomponents.NotGate	7336
+simulator.digitalcomponents.NotGate	7337
+simulator.digitalcomponents.NotGate	7338
+simulator.digitalcomponents.NotGate	7339
+simulator.digitalcomponents.NotGate	7340
+simulator.digitalcomponents.NotGate	7341
+simulator.digitalcomponents.NotGate	7342
+simulator.digitalcomponents.NotGate	7343
+simulator.digitalcomponents.NotGate	7401
+simulator.digitalcomponents.NotGate	7402
+simulator.digitalcomponents.NotGate	7403
+simulator.digitalcomponents.NotGate	7404
+simulator.digitalcomponents.NotGate	7412
+simulator.digitalcomponents.NotGate	7413
+simulator.digitalcomponents.NotGate	7414
+simulator.digitalcomponents.TriStateBuffer	7420	8	PIRout
+simulator.digitalcomponents.XorGate	7405	2
+simulator.digitalcomponents.OrGate	7406	2
+simulator.digitalcomponents.OrGate	7407	2
+simulator.digitalcomponents.MultiplexerComponent	MX5	7418	1	16	4
