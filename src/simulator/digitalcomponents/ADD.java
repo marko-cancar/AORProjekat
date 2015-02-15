@@ -58,7 +58,10 @@ public class ADD extends LogicComponentSimple {
 		Port A = ports.get(0);
 		Port B = ports.get(1);
 		Port out = ports.get(2);
-		out.getValue().setIntValue(A.getValue().getIntValue()+B.getValue().getIntValue());
+		int valA = A.getValue().getIntValue();
+		int valB = B.getValue().getIntValue();
+		int rez = valA+valB;
+		out.getValue().setIntValue(rez);
 	}
 
 	@Override

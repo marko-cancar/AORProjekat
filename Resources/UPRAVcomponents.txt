@@ -1,0 +1,12 @@
+simulator.digitalcomponents.RegisterComponent	mPC	1000	8	0
+simulator.digitalcomponents.OrGate	1001	4
+simulator.digitalcomponents.NotGate	1002
+simulator.digitalcomponents.Kmadr	1003
+simulator.digitalcomponents.Kmopr	1004
+simulator.digitalcomponents.MultiplexerComponent	MP	1005	8	4	2
+simulator.digitalcomponents.MicroMem	mMEM(0..27)	1006	28
+simulator.digitalcomponents.MicroMem	mMEM(28..35)	1007	8
+simulator.digitalcomponents.MicroMem	mMEM(36..43)	1008	8
+simulator.digitalcomponents.RegisterComponent	CW[0..27]	1009	28	0
+simulator.digitalcomponents.RegisterComponent	CW[28..35]	1010	8	0
+simulator.digitalcomponents.RegisterComponent	CW[36..43]	1011	8	0

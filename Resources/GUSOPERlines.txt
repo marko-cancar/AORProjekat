@@ -1,0 +1,20 @@
+simulator.gui.DecoderPresentation	1013	11	100	100	1	1
+simulator.gui.StringPresentation	-1	11	73	124	CW3
+simulator.gui.StringPresentation	-1	11	73	154	CW2
+simulator.gui.StringPresentation	-1	11	73	184	CW1
+simulator.gui.StringPresentation	-1	11	73	214	CW0
+simulator.gui.StringPresentation	-1	11	223	154	PCout
+simulator.gui.StringPresentation	-1	11	223	184	sysSPout
+simulator.gui.StringPresentation	-1	11	223	214	PDRout
+simulator.gui.StringPresentation	-1	11	223	244	GPRout
+simulator.gui.StringPresentation	-1	11	223	274	IR23out
+simulator.gui.StringPresentation	-1	11	223	304	IR3out
+simulator.gui.StringPresentation	-1	11	223	334	PARout
+simulator.gui.StringPresentation	-1	11	223	364	Dout
+simulator.gui.StringPresentation	-1	11	223	394	Aout
+simulator.gui.StringPresentation	-1	11	223	424	Bout
+simulator.gui.StringPresentation	-1	11	223	454	SPout
+simulator.gui.StringPresentation	-1	11	223	484	PCHout
+simulator.gui.StringPresentation	-1	11	223	514	PCLout
+simulator.gui.StringPresentation	-1	11	223	544	IVTPout
+simulator.gui.StringPresentation	-1	11	223	574	IVTDSPout

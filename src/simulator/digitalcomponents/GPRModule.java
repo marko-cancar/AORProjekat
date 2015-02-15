@@ -21,7 +21,7 @@ public class GPRModule extends LogicComponentSimple {
 		ports.add(port);
 		
 		//ADDRESS
-		port = new PortSimple(Port.IN, new MultipleDigitalValue(2), 
+		port = new PortSimple(Port.IN, new MultipleDigitalValue(6), 
 				"IN" + 1, "in" + 1, 1, this);
 		ports.add(port);
 		
@@ -32,7 +32,7 @@ public class GPRModule extends LogicComponentSimple {
 		
 		//DATA OUT
 		port = new PortSimple(Port.OUT, new MultipleDigitalValue(16), 
-				"IN" + 3, "in" + 3, 3, this);
+				"OUT" + 3, "out" + 3, 3, this);
 		ports.add(port);
 
 	}
@@ -55,9 +55,9 @@ public class GPRModule extends LogicComponentSimple {
 		if(registers==null){
 			registers = new ArrayList<>();
 		}
-		for(int i=0; i<4; i++){
+		for(int i=0; i<64; i++){
 			MultipleDigitalValue mdv = new MultipleDigitalValue(16);
-			mdv.setIntValue(i%10);
+			mdv.setIntValue(0);
 			registers.add(mdv);
 		}
 		Port out = ports.get(3);
@@ -79,7 +79,6 @@ public class GPRModule extends LogicComponentSimple {
 			registers.get(addr.getValue().getUIntValue()).load(dataIn.getValue());
 		}
 		dataOut.getValue().load(registers.get(addr.getValue().getUIntValue()));
-		
 	}
 
 	@Override

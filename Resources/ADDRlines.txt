@@ -1,0 +1,38 @@
+simulator.gui.SignalPresentation	600	9	200	100	200	1200
+simulator.gui.StringPresentation	-1	9	196	90	IB[15..0]
+simulator.gui.RegisterComponentPresentation	900	9	400	120	1	1
+simulator.gui.SignalPresentation	600	9	200	120	300	120
+simulator.gui.StringPresentation	-1	9	295	110	- 15..6
+simulator.gui.StringPresentation	-1	9	304	123	5..0
+simulator.gui.SignalPresentation	906	9	325	120	477	120
+simulator.gui.GPRModulePresentation	903	9	400	300	1	1
+simulator.gui.SignalPresentation	907	9	478	213	478	235	380	235	380	360	399	360
+simulator.gui.StringPresentation	-1	9	494	290	IB[15..0]
+simulator.gui.TriStateBufferPresentation	904	9	300	465	1	1
+simulator.gui.SignalPresentation	908	9	500	422	500	475	363	475
+simulator.gui.SignalPresentation	600	9	200	475	299	475
+simulator.gui.StringPresentation	-1	9	605	363	wrGPR
+simulator.gui.StringPresentation	-1	9	566	158	ldGPRADR
+simulator.gui.StringPresentation	-1	9	328	506	GPRout
+simulator.gui.RegisterComponentPresentation	905	9	400	600	1	1
+simulator.gui.TriStateBufferPresentation	906	9	300	730	1	1
+simulator.gui.StringPresentation	-1	9	562	638	ldSP
+simulator.gui.StringPresentation	-1	9	369	638	incSP
+simulator.gui.StringPresentation	-1	9	366	659	decSP
+simulator.gui.SignalPresentation	600	9	200	740	299	740
+simulator.gui.SignalPresentation	909	9	478	692	478	740	363	740
+simulator.gui.SignalPresentation	600	9	200	599	478	599
+simulator.gui.StringPresentation	-1	9	331	770	SPout
+simulator.gui.RegisterComponentPresentation	907	9	400	900	1	1
+simulator.gui.ADDPresentation	910	9	650	900	1	1
+simulator.gui.RegisterComponentPresentation	908	9	900	900	1	1
+simulator.gui.TriStateBufferPresentation	911	9	300	1100	1	1
+simulator.gui.SignalPresentation	600	9	200	900	478	900
+simulator.gui.SignalPresentation	910	9	478	993	696	993
+simulator.gui.SignalPresentation	600	9	200	1036	743	1036	743	993
+simulator.gui.SignalPresentation	912	9	720	898	720	870	978	870	978	898
+simulator.gui.SignalPresentation	911	9	978	993	978	1110	363	1110
+simulator.gui.SignalPresentation	600	9	200	1110	298	1110
+simulator.gui.StringPresentation	-1	9	565	939	ldRW
+simulator.gui.StringPresentation	-1	9	1066	939	ldCW
+simulator.gui.StringPresentation	-1	9	331	1144	CWout

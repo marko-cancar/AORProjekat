@@ -37,28 +37,21 @@ public class MultipleDigitalValue implements Value {
 
 	@Override
 	public int getIntValue() {
-		int ret = 0;
-		int sign = 1;
-		boolean shouldInvert = false;
-		List<DigitalValue> copy = new LinkedList<>();
-		for(DigitalValue dig : value){
-			copy.add(new DigitalValue(dig.getIntValue()));
+		int res=0;
+		int exp = value.size()-1;
+		boolean isPositive = !value.get(0).getBooleanValue();
+		if(isPositive){
+			res += value.get(0).getIntValue() * Math.pow(2, exp);
 		}
-
-		if(copy.get(copy.size()-1).getBooleanValue()) sign = 1;
-		for (int i = copy.size() - 1; i >= 0; i--) {
-			if (shouldInvert) {
-				copy.get(i).setBooleanValue(!copy.get(i).getBooleanValue());
-			}
-			if (copy.get(i).getBooleanValue()) {
-				shouldInvert = true;
-			}
+		else{
+			res -= value.get(0).getIntValue() * Math.pow(2, exp);
 		}
-
-		for (int i = 0; i < copy.size(); i++) {
-			ret += copy.get(i).getIntValue()*Math.pow(2.0, copy.size() - 1 - i);
+		exp--;
+		for(int i=1; i<value.size(); i++){
+			res += value.get(i).getIntValue() * Math.pow(2, exp);
+			exp--;
 		}
-		return ret * sign;
+		return res;
 	}
 
 	@Override
@@ -101,7 +94,9 @@ public class MultipleDigitalValue implements Value {
 	}
 
 	protected static void valudate(int value, int size) {
-		if(value < -1*Math.pow(2.0, size - 1) || value > Math.pow(2.0,size-1) - 1) {
+		if(value < -1*Math.pow(2.0, size - 1) || value > Math.pow(2.0,size-1)) {
+			String msg = "Vrednost kod koje puca validation je "+value+", broj bita je "+size+".";
+			System.out.println(msg);
 			throw new ValidationException();
 		}
 	}

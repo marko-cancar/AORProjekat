@@ -1,22 +1,36 @@
 simulator.digitalcomponents.RegisterComponent	PC	600	16	3
 simulator.digitalcomponents.TriStateBuffer	601	16	PCout
-simulator.digitalcomponents.RegisterComponent	IR1	602	8	0
-simulator.digitalcomponents.TriStateBuffer	603	8	IR1out
-simulator.digitalcomponents.RegisterComponent	IR2	604	8	0
-simulator.digitalcomponents.TriStateBuffer	605	8	IR2out
+simulator.digitalcomponents.RegisterComponent	IR1	602	8	-59
+simulator.digitalcomponents.TriStateBuffer	603	16	IR1out
+simulator.digitalcomponents.RegisterComponent	IR2	604	8	64
+simulator.digitalcomponents.TriStateBuffer	605	16	IR2out
 simulator.digitalcomponents.RegisterComponent	IR3	606	8	0
-simulator.digitalcomponents.TriStateBuffer	607	8	IR3out
+simulator.digitalcomponents.TriStateBuffer	607	16	IR3out
 simulator.digitalcomponents.RegisterComponent	IR4	608	8	0
-simulator.digitalcomponents.TriStateBuffer	609	8	IR4out
+simulator.digitalcomponents.TriStateBuffer	609	16	IR4out
 simulator.digitalcomponents.TriStateBuffer	610	16	IR23out
 simulator.digitalcomponents.TriStateBuffer	611	16	IR34out
 simulator.digitalcomponents.Composer	C1	612	8	2
 simulator.digitalcomponents.Composer	C2	613	8	2
-simulator.digitalcomponents.Decoder	DC1	620	1
-simulator.digitalcomponents.Decoder	DC2	621	1
-simulator.digitalcomponents.Decoder	DC3	622	1
-simulator.digitalcomponents.Decoder	DC4	623	6
-simulator.digitalcomponents.Decoder	DC5	624	5
-simulator.digitalcomponents.Decoder	DC6	625	5
-simulator.digitalcomponents.Decoder	DC7	626	4
-simulator.digitalcomponents.Decoder	DC8	627	2
+simulator.digitalcomponents.Composer	CmpzIR1	630	8	2
+simulator.digitalcomponents.Composer	CmpzIR2	631	8	2
+simulator.digitalcomponents.Composer	CmpzIR3	632	8	2
+simulator.digitalcomponents.Composer	CmpzIR4	633	8	2
+simulator.digitalcomponents.Decomposer16to8	IR1Dcmp	614
+simulator.digitalcomponents.Decomposer16to8	IR2Dcmp	615
+simulator.digitalcomponents.Decomposer16to8	IR3Dcmp	616
+simulator.digitalcomponents.Decomposer16to8	IR4Dcmp	617
+simulator.digitalcomponents.Decomposer	DcmpzIR1	640	8
+simulator.digitalcomponents.Decomposer	DcmpzIR2	641	8
+simulator.digitalcomponents.Decoder	DC1	650	2
+simulator.digitalcomponents.Decoder	DC2	651	5
+simulator.digitalcomponents.Decoder	DC3	652	3
+simulator.digitalcomponents.Decoder	DC4	653	5
+simulator.digitalcomponents.Decoder	DC5	654	4
+simulator.digitalcomponents.Decoder	DC6	655	2
+simulator.digitalcomponents.OrGate	660	16
+simulator.digitalcomponents.OrGate	661	8
+simulator.digitalcomponents.AndGate	662	2
+simulator.digitalcomponents.AndGate	663	2
+simulator.digitalcomponents.OrGate	664	16
+simulator.digitalcomponents.OrGate	665	2

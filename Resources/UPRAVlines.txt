@@ -1,0 +1,31 @@
+simulator.gui.KmadrPresentation	1003	10	500	50	1	1
+simulator.gui.KmoprPresentation	1004	10	100	50	1	1
+simulator.gui.MultiplexerComponentPresentation	1005	10	350	250	1	1
+simulator.gui.StringPresentation	-1	10	376	462	bradr
+simulator.gui.StringPresentation	-1	10	423	462	bropr
+simulator.gui.StringPresentation	-1	10	300	323	KMADR
+simulator.gui.StringPresentation	-1	10	300	363	KMOPR
+simulator.gui.RegisterComponentPresentation	1000	10	900	300	1	1
+simulator.gui.OrComponentPresentation	1001	10	700	315	1	1
+simulator.gui.NotComponentPresentation	1002	10	830	315	1	1
+simulator.gui.SignalPresentation	1500	10	473	340	600	340	600	276	978	276	978	298
+simulator.gui.SignalPresentation	1001	10	760	335	830	335	800	335	800	260	1082	260	1082	335	1061	335
+simulator.gui.SignalPresentation	1002	10	891	335	900	335
+simulator.gui.MicroMemPresentation	1006	10	100	550	1	1
+simulator.gui.MicroMemPresentation	1007	10	300	550	1	1
+simulator.gui.MicroMemPresentation	1008	10	500	550	1	1
+simulator.gui.SignalPresentation	1000	10	978	392	978	500	195	500	195	540
+simulator.gui.SignalPresentation	1000	10	395	500	395	540
+simulator.gui.SignalPresentation	1000	10	595	500	595	540
+simulator.gui.RegisterComponentPresentation	1009	10	116	800	1	1
+simulator.gui.RegisterComponentPresentation	1010	10	316	800	1	1
+simulator.gui.RegisterComponentPresentation	1011	10	516	800	1	1
+simulator.gui.SignalPresentation	1006	10	194	723	194	798
+simulator.gui.SignalPresentation	1007	10	394	723	394	798
+simulator.gui.SignalPresentation	1008	10	594	723	594	798
+simulator.gui.ClickablePresentationWidthHeight	-1	10	100	1000	200	200	11	//generisanje u.s. oper
+simulator.gui.StringInRectanglePresentation	-1	10	100	1000	200	200	Generisanje uprav.sign. oper.
+simulator.gui.ClickablePresentationWidthHeight	-1	10	400	1000	200	200	12	//generisanje u.s.
+simulator.gui.StringInRectanglePresentation	-1	10	400	1000	200	200	Generisanje uprav.sign. uprav.
+simulator.gui.SignalPresentation	1009	10	194	893	194	1000
+simulator.gui.SignalPresentation	1009	10	394	893	394	920	500	920	500	1000

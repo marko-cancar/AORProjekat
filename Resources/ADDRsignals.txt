@@ -1,0 +1,13 @@
+simulator.SignalSimle	900	Dcmpz0
+simulator.SignalSimle	901	Dcmpz1
+simulator.SignalSimle	902	Dcmpz2
+simulator.SignalSimle	903	Dcmpz3
+simulator.SignalSimle	904	Dcmpz4
+simulator.SignalSimle	905	Dcmpz5
+simulator.SignalSimle	906	CmpzOut
+simulator.SignalSimle	907	GPRADRout
+simulator.SignalSimle	908	GPRout
+simulator.SignalSimle	909	SPout
+simulator.SignalSimle	910	RWout
+simulator.SignalSimle	911	CWout
+simulator.SignalSimle	912	ADDout

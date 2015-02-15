@@ -59,6 +59,7 @@ public class GPRModulePresentation extends ComponentPresentation{
 		graphics2d.setStroke(new BasicStroke(4));
 		g.drawLine(x, y+height/2, x + MARGIN_SIDE/2, y + height/2);
 		g.setColor(c);
+		g.drawString("A", x+MARGIN_SIDE, y+height/2+5);
 		graphics2d.setStroke(new BasicStroke(1));
 		
 		p = component.getPort(2);//data in

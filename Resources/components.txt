@@ -15,3 +15,5 @@ simulator.digitalcomponents.OrGate	13	2
 simulator.digitalcomponents.OrGate	14	2
 simulator.digitalcomponents.OrGate	15	2
 simulator.digitalcomponents.InGate	IN	16	0	0
+simulator.digitalcomponents.RegisterComponent	START	17	2	1
+simulator.digitalcomponents.Decomposer	DcmpzSTART	18	2

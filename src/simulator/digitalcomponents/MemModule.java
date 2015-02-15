@@ -59,7 +59,13 @@ public class MemModule extends LogicComponentSimple {
 		}
 		for(int i=0; i<65536; i++){
 			MultipleDigitalValue mdv = new MultipleDigitalValue(8);
-			mdv.setIntValue(i%10);
+			if(i==3){
+				mdv.setIntValue(-128);
+			}
+			else{
+				mdv.setIntValue(i%10);
+			}
+			
 			bytes.add(mdv);
 		}
 		Port out = ports.get(4);

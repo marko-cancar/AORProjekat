@@ -50,15 +50,17 @@ public class CommandPanel extends JPanel {
 
 		@Override
 		public void actionPerformed(ActionEvent e) {
-			commandExecutor.undoAllCommands();
-			controlUnit.execute();
-			for(String commandName : controlUnit.getCommands()){
-				commandExecutor.execute(commandName, true);
-				System.out.println("executed " + commandName);
-			}			
-			simulator.simulate(simulator.getCurrentTime() + interval);
-			interval = 20;
-			parent.repaint();
+			simulator.simulate(simulator.getCurrentTime() + 1);
+			   commandExecutor.undoAllCommands();
+			   controlUnit.execute();
+			   for(String commandName : controlUnit.getCommands()){
+			    commandExecutor.execute(commandName, true);
+			    //System.out.println("executed " + commandName);
+			   }
+			   simulator.simulate(simulator.getCurrentTime() + interval - 1);
+			   //((TimeDrivenSimulator)simulator).updateSignals();
+			   interval = 20;
+			   parent.repaint();
 		}
 	}
 	

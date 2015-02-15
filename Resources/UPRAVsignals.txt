@@ -1,0 +1,12 @@
+simulator.SignalSimle	1000	mPCout
+simulator.SignalSimle	1001	ORout
+simulator.SignalSimle	1002	NOTout
+simulator.SignalSimle	1300	KMADRout
+simulator.SignalSimle	1400	KMOPRout
+simulator.SignalSimle	1500	MPout
+simulator.SignalSimle	1006	mMEM0out
+simulator.SignalSimle	1007	mMEM1out
+simulator.SignalSimle	1008	mMEM2out
+simulator.SignalSimle	1009	CW0out
+simulator.SignalSimle	1010	CW1out
+simulator.SignalSimle	1011	CW2out

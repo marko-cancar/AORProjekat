@@ -45,11 +45,144 @@ simulator.gui.StringPresentation	-1	6	327	848	IR3out
 simulator.gui.StringPresentation	-1	6	327	1148	IR4out
 simulator.gui.StringPresentation	-1	6	277	772	IR23out
 simulator.gui.StringPresentation	-1	6	277	992	IR34out
-simulator.gui.DecoderPresentation	620	6	100	1300	1	1
-simulator.gui.DecoderPresentation	621	6	100	1450	1	1
-simulator.gui.DecoderPresentation	622	6	100	1600	1	1
-simulator.gui.DecoderPresentation	623	6	350	1300	1	1
-simulator.gui.DecoderPresentation	624	6	600	1300	1	1
-simulator.gui.DecoderPresentation	625	6	850	1300	1	1
-simulator.gui.DecoderPresentation	626	6	1100	1300	1	1
-simulator.gui.DecoderPresentation	627	6	100	1750	1	1
+simulator.gui.DecoderPresentation	650	6	100	1300	1	1
+simulator.gui.StringPresentation	-1	6	73	1324	IR30
+simulator.gui.StringPresentation	-1	6	73	1354	IR31
+simulator.gui.StringPresentation	-1	6	227	1324	G0
+simulator.gui.StringPresentation	-1	6	227	1354	G1
+simulator.gui.StringPresentation	-1	6	227	1384	G2
+simulator.gui.StringPresentation	-1	6	227	1414	G3
+simulator.gui.StringPresentation	-1	6	139	1463	START
+simulator.gui.DecoderPresentation	651	6	400	1300	1	1
+simulator.gui.StringPresentation	-1	6	373	1324	IR24
+simulator.gui.StringPresentation	-1	6	373	1354	IR25
+simulator.gui.StringPresentation	-1	6	373	1384	IR26
+simulator.gui.StringPresentation	-1	6	373	1414	IR27
+simulator.gui.StringPresentation	-1	6	373	1444	IR28
+simulator.gui.StringPresentation	-1	6	453	2306	G0
+simulator.gui.StringPresentation	-1	6	527	1324	BEQL
+simulator.gui.StringPresentation	-1	6	527	1354	BNEQ
+simulator.gui.StringPresentation	-1	6	527	1384	BNEG
+simulator.gui.StringPresentation	-1	6	527	1414	BNNG
+simulator.gui.StringPresentation	-1	6	527	1444	BOVF
+simulator.gui.StringPresentation	-1	6	527	1474	BNVF
+simulator.gui.StringPresentation	-1	6	527	1504	BCR
+simulator.gui.StringPresentation	-1	6	527	1534	BNCR
+simulator.gui.StringPresentation	-1	6	527	1564	BGRT
+simulator.gui.StringPresentation	-1	6	527	1594	BGRE
+simulator.gui.StringPresentation	-1	6	527	1624	BLSS
+simulator.gui.StringPresentation	-1	6	527	1654	BLEQ
+simulator.gui.StringPresentation	-1	6	527	1684	BGRTU
+simulator.gui.StringPresentation	-1	6	527	1714	BGREU
+simulator.gui.StringPresentation	-1	6	527	1744	BLSSU
+simulator.gui.StringPresentation	-1	6	527	1774	BLEQU
+simulator.gui.DecoderPresentation	652	6	700	1300	1	1
+simulator.gui.StringPresentation	-1	6	673	1324	IR24
+simulator.gui.StringPresentation	-1	6	673	1354	IR25
+simulator.gui.StringPresentation	-1	6	673	1384	IR26
+simulator.gui.StringPresentation	-1	6	753	1586	G1
+simulator.gui.StringPresentation	-1	6	827	1324	JMP
+simulator.gui.StringPresentation	-1	6	827	1354	JSR
+simulator.gui.StringPresentation	-1	6	827	1384	INT
+simulator.gui.DecoderPresentation	653	6	1000	1300	1	1
+simulator.gui.StringPresentation	-1	6	973	1324	IR24
+simulator.gui.StringPresentation	-1	6	973	1354	IR25
+simulator.gui.StringPresentation	-1	6	973	1384	IR26
+simulator.gui.StringPresentation	-1	6	973	1414	IR27
+simulator.gui.StringPresentation	-1	6	973	1444	IR28
+simulator.gui.StringPresentation	-1	6	1053	2306	G2
+simulator.gui.StringPresentation	-1	6	1127	1324	RTS
+simulator.gui.StringPresentation	-1	6	1127	1354	RTI
+simulator.gui.StringPresentation	-1	6	1127	1384	ASR
+simulator.gui.StringPresentation	-1	6	1127	1414	LSR
+simulator.gui.StringPresentation	-1	6	1127	1444	ROR
+simulator.gui.StringPresentation	-1	6	1127	1474	RORC
+simulator.gui.StringPresentation	-1	6	1127	1504	ASL
+simulator.gui.StringPresentation	-1	6	1127	1534	LSL
+simulator.gui.StringPresentation	-1	6	1127	1564	ROL
+simulator.gui.StringPresentation	-1	6	1127	1594	ROLC
+simulator.gui.StringPresentation	-1	6	1127	1624	INTE
+simulator.gui.StringPresentation	-1	6	1127	1654	INTD
+simulator.gui.StringPresentation	-1	6	1127	1684	TRPE
+simulator.gui.StringPresentation	-1	6	1127	1714	TRPD
+simulator.gui.StringPresentation	-1	6	1127	1744	STIVTP
+simulator.gui.StringPresentation	-1	6	1127	1774	STSP
+simulator.gui.DecoderPresentation	654	6	700	1600	1	1
+simulator.gui.StringPresentation	-1	6	673	1624	IR24
+simulator.gui.StringPresentation	-1	6	673	1654	IR25
+simulator.gui.StringPresentation	-1	6	673	1684	IR26
+simulator.gui.StringPresentation	-1	6	673	1714	IR27
+simulator.gui.StringPresentation	-1	6	753	2125	G3
+simulator.gui.StringPresentation	-1	6	827	1624	LD
+simulator.gui.StringPresentation	-1	6	827	1654	ST
+simulator.gui.StringPresentation	-1	6	827	1684	ADD
+simulator.gui.StringPresentation	-1	6	827	1714	SUB
+simulator.gui.StringPresentation	-1	6	827	1744	AND
+simulator.gui.StringPresentation	-1	6	827	1774	OR
+simulator.gui.StringPresentation	-1	6	827	1804	XOR
+simulator.gui.StringPresentation	-1	6	827	1834	NOT
+simulator.gui.DecoderPresentation	655	6	100	1600	1	1
+simulator.gui.StringPresentation	-1	6	73	1624	IR22
+simulator.gui.StringPresentation	-1	6	73	1654	IR23
+simulator.gui.StringPresentation	-1	6	227	1624	regdir
+simulator.gui.StringPresentation	-1	6	227	1654	pcrel
+simulator.gui.StringPresentation	-1	6	227	1684	regindpom
+simulator.gui.StringPresentation	-1	6	227	1714	immed
+simulator.gui.StringPresentation	-1	6	153	1763	G3
+simulator.gui.OrComponentPresentation	660	6	100	2400	1	1
+simulator.gui.StringPresentation	-1	6	65	2304	RTS
+simulator.gui.StringPresentation	-1	6	65	2319	RTI
+simulator.gui.StringPresentation	-1	6	65	2334	ASR
+simulator.gui.StringPresentation	-1	6	65	2349	LSR
+simulator.gui.StringPresentation	-1	6	65	2364	ROR
+simulator.gui.StringPresentation	-1	6	65	2379	RORC
+simulator.gui.StringPresentation	-1	6	65	2394	ASL
+simulator.gui.StringPresentation	-1	6	65	2409	LSL
+simulator.gui.StringPresentation	-1	6	65	2439	ROL
+simulator.gui.StringPresentation	-1	6	65	2454	ROLC
+simulator.gui.StringPresentation	-1	6	65	2469	INTE
+simulator.gui.StringPresentation	-1	6	65	2484	INTD
+simulator.gui.StringPresentation	-1	6	65	2499	TRPE
+simulator.gui.StringPresentation	-1	6	65	2514	TRPD
+simulator.gui.StringPresentation	-1	6	65	2529	STIVTP
+simulator.gui.StringPresentation	-1	6	65	2544	STSP
+simulator.gui.StringPresentation	-1	6	166	2425	l1
+simulator.gui.OrComponentPresentation	661	6	300	2400	1	1
+simulator.gui.StringPresentation	-1	6	271	2364	LD
+simulator.gui.StringPresentation	-1	6	271	2379	ST
+simulator.gui.StringPresentation	-1	6	271	2394	ADD
+simulator.gui.StringPresentation	-1	6	271	2409	SUB
+simulator.gui.StringPresentation	-1	6	271	2439	AND
+simulator.gui.StringPresentation	-1	6	271	2454	OR
+simulator.gui.StringPresentation	-1	6	271	2469	XOR
+simulator.gui.StringPresentation	-1	6	271	2484	NOT
+simulator.gui.AndComponentPresentation	662	6	450	2415	1	1
+simulator.gui.SignalPresentation	66100	6	361	2420	400	2420	400	2450	449	2450
+simulator.gui.StringPresentation	-1	6	418	2423	regdir
+simulator.gui.StringPresentation	-1	6	514	2439	l2_arlog
+simulator.gui.AndComponentPresentation	663	6	450	2500	1	1
+simulator.gui.SignalPresentation	66100	6	400	2420	400	2535	449	2535
+simulator.gui.StringPresentation	-1	6	418	2509	pcrel
+simulator.gui.StringPresentation	-1	6	514	2526	l3_arlog
+simulator.gui.OrComponentPresentation	664	6	700	2400	1	1
+simulator.gui.StringPresentation	-1	6	650	2304	BEQL
+simulator.gui.StringPresentation	-1	6	650	2319	BNEQ
+simulator.gui.StringPresentation	-1	6	650	2334	BNEG
+simulator.gui.StringPresentation	-1	6	650	2349	BNNG
+simulator.gui.StringPresentation	-1	6	650	2364	BOVF
+simulator.gui.StringPresentation	-1	6	650	2379	BNVF
+simulator.gui.StringPresentation	-1	6	650	2394	BCR
+simulator.gui.StringPresentation	-1	6	650	2409	BNCR
+simulator.gui.StringPresentation	-1	6	650	2439	BGRT
+simulator.gui.StringPresentation	-1	6	650	2454	BGRE
+simulator.gui.StringPresentation	-1	6	650	2469	BLSS
+simulator.gui.StringPresentation	-1	6	650	2484	BLEQ
+simulator.gui.StringPresentation	-1	6	650	2499	BGRTU
+simulator.gui.StringPresentation	-1	6	650	2514	BGREU
+simulator.gui.StringPresentation	-1	6	650	2529	BLSSU
+simulator.gui.StringPresentation	-1	6	650	2544	BLEQU
+simulator.gui.StringPresentation	-1	6	766	2425	l2_brnch
+simulator.gui.OrComponentPresentation	665	6	950	2400	1	1
+simulator.gui.StringPresentation	-1	6	928	2409	JMP
+simulator.gui.StringPresentation	-1	6	928	2439	JSR
+simulator.gui.StringPresentation	-1	6	1014	2425	l3_jump

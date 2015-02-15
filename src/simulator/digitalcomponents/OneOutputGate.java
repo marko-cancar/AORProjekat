@@ -58,6 +58,9 @@ public class OneOutputGate extends LogicComponentSimple {
 	public void execute() {
 		boolean newVal = calculate();
 		Port out = ports.get(numInputs);
+		if(id==663) {
+			System.out.println(out);
+		}
 		out.getValue().setBooleanValue(newVal);
 	}
 

@@ -1,0 +1,11 @@
+simulator.digitalcomponents.RegisterComponent	GPRADR	900	6	0
+simulator.digitalcomponents.Decomposer	DcmpzGPRADR	901	16
+simulator.digitalcomponents.Composer	CmpzGPRADR	902	1	6
+simulator.digitalcomponents.GPRModule	903
+simulator.digitalcomponents.TriStateBuffer	904	16	GPRout
+simulator.digitalcomponents.RegisterComponent	SP	905	16	0
+simulator.digitalcomponents.TriStateBuffer	906	16	SPout
+simulator.digitalcomponents.RegisterComponent	RW	907	16	0
+simulator.digitalcomponents.RegisterComponent	CW	908	16	0
+simulator.digitalcomponents.ADD	ADD	910
+simulator.digitalcomponents.TriStateBuffer	911	16	CWout

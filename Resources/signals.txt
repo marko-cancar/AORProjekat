@@ -16,3 +16,5 @@ simulator.SignalSimle	14	1415
 simulator.SignalSimle	15	in3
 simulator.SignalSimle	20	ABUS
 simulator.SignalSimle	21	DBUS
+simulator.SignalSimle	22	STARTout
+simulator.SignalSimle	23	START

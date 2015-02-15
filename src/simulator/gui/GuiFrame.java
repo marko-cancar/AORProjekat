@@ -39,6 +39,8 @@ public class GuiFrame extends JFrame {
 		titles.add("Intr");//8
 		titles.add("Addr");//9
 		titles.add("Uprav");//10
+		titles.add("Gen. uprav. sig. oper.");//11
+		titles.add("Gen. uprav. sig. uprav.");//12
 
 		this.simulator = simulator;
 
@@ -78,32 +80,26 @@ public class GuiFrame extends JFrame {
 		scrollPane = new JScrollPane(wp);
 		tabbedPane.addTab(wp.getTitle(), scrollPane);
 		centerPanel.add(tabbedPane);
+//		
+//		wp = workingPanels.get(3);
+//		scrollPane = new JScrollPane(wp);
+//		scrollPane.getVerticalScrollBar().setUnitIncrement(16);
+//		tabbedPane.addTab(wp.getTitle(), scrollPane);
+//		centerPanel.add(tabbedPane);
+//		
+//		wp = workingPanels.get(5);
+//		scrollPane = new JScrollPane(wp);
+//		scrollPane.getVerticalScrollBar().setUnitIncrement(16);
+//		tabbedPane.addTab(wp.getTitle(), scrollPane);
+//		centerPanel.add(tabbedPane);
+//		
+//		wp = workingPanels.get(6);
+//		scrollPane = new JScrollPane(wp);
+//		scrollPane.getVerticalScrollBar().setUnitIncrement(16);
+//		tabbedPane.addTab(wp.getTitle(), scrollPane);
+//		centerPanel.add(tabbedPane);
 		
-		wp = workingPanels.get(3);
-		scrollPane = new JScrollPane(wp);
-		scrollPane.getVerticalScrollBar().setUnitIncrement(16);
-		tabbedPane.addTab(wp.getTitle(), scrollPane);
-		centerPanel.add(tabbedPane);
-		
-		wp = workingPanels.get(5);
-		scrollPane = new JScrollPane(wp);
-		scrollPane.getVerticalScrollBar().setUnitIncrement(16);
-		tabbedPane.addTab(wp.getTitle(), scrollPane);
-		centerPanel.add(tabbedPane);
-		
-		wp = workingPanels.get(6);
-		scrollPane = new JScrollPane(wp);
-		scrollPane.getVerticalScrollBar().setUnitIncrement(16);
-		tabbedPane.addTab(wp.getTitle(), scrollPane);
-		centerPanel.add(tabbedPane);
-
-		wp = workingPanels.get(7);
-		scrollPane = new JScrollPane(wp);
-		scrollPane.getVerticalScrollBar().setUnitIncrement(16);
-		tabbedPane.addTab(wp.getTitle(), scrollPane);
-		centerPanel.add(tabbedPane);		
-		
-		tabbedPane.setSelectedIndex(5);
+		tabbedPane.setSelectedIndex(1);
 
 		// adds all signals test only
 		graphicsPanel = new GraphicsPanel(this, simulator.getNetlist()

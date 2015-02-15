@@ -24,7 +24,7 @@ public class TimeDrivenSimulator extends Simulator {
 			List<Signal> signals = netlist.getSignals();
 			for (Signal signal : signals) {
 				signal.execute();
-				System.out.println(signal);
+				//System.out.println(signal);
 			}
 			currentTime++;
 			GraphicsPanel.thisPanel.updateSignals();
