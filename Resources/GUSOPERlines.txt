@@ -18,4 +18,24 @@ simulator.gui.StringPresentation	-1	11	223	484	PCHout
 simulator.gui.StringPresentation	-1	11	223	514	PCLout
 simulator.gui.StringPresentation	-1	11	223	544	IVTPout
 simulator.gui.StringPresentation	-1	11	223	574	IVTDSPout
-simulator.gui.DecoderPresentation	1014	11	300	100	1	1
+simulator.gui.DecoderPresentation	1014	11	400	100	1	1
+simulator.gui.StringPresentation	-1	11	373	124	CW7
+simulator.gui.StringPresentation	-1	11	373	154	CW6
+simulator.gui.StringPresentation	-1	11	373	184	CW5
+simulator.gui.StringPresentation	-1	11	523	154	CWout
+simulator.gui.StringPresentation	-1	11	523	184	CDRDout
+simulator.gui.StringPresentation	-1	11	523	214	ldB
+simulator.gui.StringPresentation	-1	11	523	244	ldCW
+simulator.gui.StringPresentation	-1	11	523	274	ldRW
+simulator.gui.StringPresentation	-1	11	523	304	ldCDRWR
+simulator.gui.DecoderPresentation	1015	11	700	100	1	1
+simulator.gui.StringPresentation	-1	11	665	124	CW11
+simulator.gui.StringPresentation	-1	11	665	154	CW10
+simulator.gui.StringPresentation	-1	11	665	184	CW9
+simulator.gui.StringPresentation	-1	11	823	154	ldPDR
+simulator.gui.StringPresentation	-1	11	823	184	ldPAR
+simulator.gui.StringPresentation	-1	11	823	214	ldGRADR
+simulator.gui.StringPresentation	-1	11	823	244	ldIVTP
+simulator.gui.StringPresentation	-1	11	823	274	ldC
+simulator.gui.StringPresentation	-1	11	823	304	ldBR
+simulator.gui.StringPresentation	-1	11	823	334	AHout
