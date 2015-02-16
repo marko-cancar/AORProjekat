@@ -12,6 +12,7 @@ simulator.digitalcomponents.Composer	C1	7133	8	2
 simulator.digitalcomponents.ZeroRegisterComponent	7134	8	0
 simulator.digitalcomponents.Decomposer16to8	Adcmp	7135
 simulator.digitalcomponents.TriStateBuffer	7136	16	Bout
+simulator.digitalcomponents.ZeroRegisterComponent	7137	1	0
 simulator.digitalcomponents.RSFlipFlop	 	7200
 simulator.digitalcomponents.OrGate	7210	2
 simulator.digitalcomponents.OrGate	7211	2
