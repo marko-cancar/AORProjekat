@@ -8,6 +8,7 @@ simulator.gui.CoderPresentation	7142	7	1000	1200	1	1
 simulator.gui.CoderPresentation	7141	7	400	1200	1	1
 simulator.gui.TriStateBufferPresentation	7131	7	400	90	1	1
 simulator.gui.TriStateBufferPresentation	7132	7	300	190	1	1
+simulator.gui.ComposerPresentation	7133	7	390	180
 simulator.gui.RSFlipFlopPresentation	7200	7	1800	1500	1	1
 simulator.gui.OrComponentPresentation	7210	7	1690	1500	1	1
 simulator.gui.OrComponentPresentation	7211	7	1690	1580	1	1
@@ -83,6 +84,10 @@ simulator.gui.SignalPresentation	7102	7	1050	100	550	100	550	280	600	280
 simulator.gui.SignalPresentation	600	7	1278	400	1278	50	100	50	100	1400	0	1400
 simulator.gui.SignalPresentation	600	7	100	50	100	0
 simulator.gui.SignalPresentation	7102	7	550	100	450	100
-simulator.gui.SignalPresentation	7102	7	550	200	450	200
+simulator.gui.SignalPresentation	7102	7	550	190	450	190	450	190	395	190
 simulator.gui.SignalPresentation	600	7	400	100	100	100
 simulator.gui.SignalPresentation	600	7	300	200	100	200
+simulator.gui.SignalPresentation	7133	7	390	200	360	200
+simulator.gui.SignalPresentation	7134	7	410	210	395	210
+simulator.gui.StringPresentation	-1	7	420	215	0
+simulator.gui.StringPresentation	-1	7	420	185	A15..8

@@ -6,6 +6,9 @@ simulator.SignalSimle	7141	dec1out
 simulator.SignalSimle	7142	dec2out
 simulator.SignalSimle	7143	dec3out
 simulator.SignalSimle	7144	dec4out
+simulator.SignalSimle	7135	dcmpout
+simulator.SignalSimle	7134	zeroout
+simulator.SignalSimle	7133	cmpoout
 simulator.SignalSimle	7200	PSWN
 simulator.SignalSimle	7210	or10out
 simulator.SignalSimle	7211	or11out
