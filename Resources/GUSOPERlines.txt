@@ -18,3 +18,4 @@ simulator.gui.StringPresentation	-1	11	223	484	PCHout
 simulator.gui.StringPresentation	-1	11	223	514	PCLout
 simulator.gui.StringPresentation	-1	11	223	544	IVTPout
 simulator.gui.StringPresentation	-1	11	223	574	IVTDSPout
+simulator.gui.DecoderPresentation	1014	11	300	100	1	1
