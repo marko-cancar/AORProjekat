@@ -76,6 +76,10 @@ simulator.gui.OrComponentPresentation	7281	7	690	1780	1	1
 simulator.gui.AndComponentPresentation	7284	7	400	1715	1	1
 simulator.gui.AndComponentPresentation	7285	7	400	1765	1	1
 simulator.gui.NotComponentPresentation	7286	7	340	1780	1	1
+simulator.gui.AndComponentPresentation	7301	7	400	2800	1	1
+simulator.gui.OrComponentPresentation	7302	7	300	3000	1	1
+simulator.gui.AndComponentPresentation	7303	7	300	3300	1	1
+simulator.gui.AndComponentPresentation	7304	7	400	3285	1	1
 simulator.gui.SignalPresentation	7101	7	1278	492	1278	500	1083	500	1083	280
 simulator.gui.SignalPresentation	7100	7	778	475	778	500	1016	500	1016	280
 simulator.gui.SignalPresentation	7103	7	690	300	778	300	778	370
@@ -200,6 +204,41 @@ simulator.gui.SignalPresentation	7137	7	400	1550	320	1550	320	1600	250	1600
 simulator.gui.SignalPresentation	7137	7	400	1750	320	1750	320	1800	250	1800
 simulator.gui.SignalPresentation	7137	7	340	1600	320	1600
 simulator.gui.SignalPresentation	7137	7	340	1800	320	1800
+simulator.gui.SignalPresentation	7175	7	400	2805	250	2805
+simulator.gui.SignalPresentation	7302	7	360	3020	380	3020	380	2835	400	2835
+simulator.gui.SignalPresentation	7302	7	380	3020	380	3290	400	3290
+simulator.gui.SignalPresentation	7303	7	360	3320	400	3320
+simulator.gui.SignalPresentation	65400	7	250	2915	300	2915
+simulator.gui.SignalPresentation	65402	7	250	2930	300	2930
+simulator.gui.SignalPresentation	65403	7	250	2945	300	2945
+simulator.gui.SignalPresentation	65404	7	250	2960	300	2960
+simulator.gui.SignalPresentation	65405	7	250	2975	300	2975
+simulator.gui.SignalPresentation	65406	7	250	2990	300	2990
+simulator.gui.SignalPresentation	65407	7	250	3005	300	3005
+simulator.gui.SignalPresentation	65302	7	250	3020	300	3020
+simulator.gui.SignalPresentation	65303	7	250	3035	300	3035
+simulator.gui.SignalPresentation	65304	7	250	3050	300	3050
+simulator.gui.SignalPresentation	65305	7	250	3065	300	3065
+simulator.gui.SignalPresentation	65306	7	250	3080	300	3080
+simulator.gui.SignalPresentation	65307	7	250	3095	300	3095
+simulator.gui.SignalPresentation	65308	7	250	3110	300	3110
+simulator.gui.SignalPresentation	65309	7	250	3125	300	3125
+simulator.gui.SignalPresentation	7328	7	300	3200	250	3200
+simulator.gui.SignalPresentation	7329	7	300	3215	250	3215
+simulator.gui.SignalPresentation	7330	7	300	3230	250	3230
+simulator.gui.SignalPresentation	7331	7	300	3245	250	3245
+simulator.gui.SignalPresentation	7332	7	300	3260	250	3260
+simulator.gui.SignalPresentation	7333	7	300	3275	250	3275
+simulator.gui.SignalPresentation	7334	7	300	3290	250	3290
+simulator.gui.SignalPresentation	7335	7	300	3305	250	3305
+simulator.gui.SignalPresentation	7336	7	300	3335	250	3335
+simulator.gui.SignalPresentation	7337	7	300	3350	250	3350
+simulator.gui.SignalPresentation	7338	7	300	3365	250	3365
+simulator.gui.SignalPresentation	7339	7	300	3380	250	3380
+simulator.gui.SignalPresentation	7340	7	300	3395	250	3395
+simulator.gui.SignalPresentation	7341	7	300	3410	250	3410
+simulator.gui.SignalPresentation	7342	7	300	3425	250	3425
+simulator.gui.SignalPresentation	7343	7	300	3440	250	3440
 simulator.gui.StringPresentation	-1	7	420	215	0
 simulator.gui.StringPresentation	-1	7	420	185	A15..8
 simulator.gui.StringPresentation	-1	7	550	310	B15..0
@@ -269,3 +308,37 @@ simulator.gui.StringPresentation	-1	7	225	1605	M7
 simulator.gui.StringPresentation	-1	7	225	1805	M6
 simulator.gui.StringPresentation	-1	7	920	1525	PSWI
 simulator.gui.StringPresentation	-1	7	920	1725	PSWT
+simulator.gui.StringPresentation	-1	7	210	2920	LD
+simulator.gui.StringPresentation	-1	7	210	2935	ADD
+simulator.gui.StringPresentation	-1	7	210	2950	SUB
+simulator.gui.StringPresentation	-1	7	210	2965	AND
+simulator.gui.StringPresentation	-1	7	210	2980	OR
+simulator.gui.StringPresentation	-1	7	210	2995	XOR
+simulator.gui.StringPresentation	-1	7	210	3010	NOT
+simulator.gui.StringPresentation	-1	7	210	3025	ASR
+simulator.gui.StringPresentation	-1	7	210	3040	LSR
+simulator.gui.StringPresentation	-1	7	210	3055	ROR
+simulator.gui.StringPresentation	-1	7	210	3070	RORC
+simulator.gui.StringPresentation	-1	7	210	3085	ASL
+simulator.gui.StringPresentation	-1	7	210	3100	LSL
+simulator.gui.StringPresentation	-1	7	210	3115	ROL
+simulator.gui.StringPresentation	-1	7	210	3130	ROLC
+simulator.gui.StringPresentation	-1	7	210	3205	#A15
+simulator.gui.StringPresentation	-1	7	210	3220	#A14
+simulator.gui.StringPresentation	-1	7	210	3235	#A13
+simulator.gui.StringPresentation	-1	7	210	3250	#A12
+simulator.gui.StringPresentation	-1	7	210	3265	#A11
+simulator.gui.StringPresentation	-1	7	210	3280	#A10
+simulator.gui.StringPresentation	-1	7	210	3295	#A9
+simulator.gui.StringPresentation	-1	7	210	3310	#A8
+simulator.gui.StringPresentation	-1	7	210	3340	#A7
+simulator.gui.StringPresentation	-1	7	210	3355	#A6
+simulator.gui.StringPresentation	-1	7	210	3370	#A5
+simulator.gui.StringPresentation	-1	7	210	3385	#A4
+simulator.gui.StringPresentation	-1	7	210	3400	#A3
+simulator.gui.StringPresentation	-1	7	210	3415	#A2
+simulator.gui.StringPresentation	-1	7	210	3430	#A1
+simulator.gui.StringPresentation	-1	7	210	3445	#A0
+simulator.gui.StringPresentation	-1	7	220	2810	A15
+simulator.gui.StringPresentation	-1	7	465	2810	N
+simulator.gui.StringPresentation	-1	7	465	3300	Z
