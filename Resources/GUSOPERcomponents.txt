@@ -2,3 +2,7 @@ simulator.digitalcomponents.Decomposer	DcmpzCW0	1012	28
 simulator.digitalcomponents.Decoder	DC1	1013	4
 simulator.digitalcomponents.Decoder	DC2	1014	3
 simulator.digitalcomponents.Decoder	DC3	1015	3
+simulator.digitalcomponents.Decoder	DC4	1016	4
+simulator.digitalcomponents.Decoder	DC5	1017	4
+simulator.digitalcomponents.Decoder	DC6	1018	4
+simulator.digitalcomponents.Decoder	DC7	1019	4
