@@ -1,0 +1,3 @@
+simulator.digitalcomponents.Decomposer	DcmpzCW1	1030	8
+simulator.digitalcomponents.Decoder	DC1	1031	5
+simulator.digitalcomponents.OrGate	1032	14

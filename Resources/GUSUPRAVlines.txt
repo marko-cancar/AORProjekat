@@ -1,0 +1,25 @@
+simulator.gui.DecoderPresentation	1031	12	100	100	1	1
+simulator.gui.StringPresentation	-1	12	65	124	CW35
+simulator.gui.StringPresentation	-1	12	65	154	CW34
+simulator.gui.StringPresentation	-1	12	65	184	CW33
+simulator.gui.StringPresentation	-1	12	65	214	CW32
+simulator.gui.StringPresentation	-1	12	65	244	CW31
+simulator.gui.StringPresentation	-1	12	223	154	bruncnd
+simulator.gui.StringPresentation	-1	12	223	184	brNotStart
+simulator.gui.StringPresentation	-1	12	223	214	brPageFault
+simulator.gui.StringPresentation	-1	12	223	244	brNotCRP
+simulator.gui.StringPresentation	-1	12	223	274	brNotGropr
+simulator.gui.StringPresentation	-1	12	223	304	brNotGradr
+simulator.gui.StringPresentation	-1	12	223	334	brL1
+simulator.gui.StringPresentation	-1	12	223	364	brL2Brnch
+simulator.gui.StringPresentation	-1	12	223	394	brL2Arlog
+simulator.gui.StringPresentation	-1	12	223	424	brL3Brnch
+simulator.gui.StringPresentation	-1	12	223	454	brL3Arlog
+simulator.gui.StringPresentation	-1	12	223	484	brStore
+simulator.gui.StringPresentation	-1	12	223	514	brRegdir
+simulator.gui.StringPresentation	-1	12	223	544	brNotBrpom
+simulator.gui.StringPresentation	-1	12	223	574	brNotPrekid
+simulator.gui.StringPresentation	-1	12	223	604	bradr
+simulator.gui.StringPresentation	-1	12	223	634	bropr
+simulator.gui.OrComponentPresentation	1032	12	400	300	1	1
+simulator.gui.StringPresentation	-1	12	465	324	brcnd

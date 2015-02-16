@@ -24,6 +24,7 @@ public class TestD {
 		String componentsADDR = "Resources/ADDRcomponents.txt";
 		String componentsUPRAV = "Resources/UPRAVcomponents.txt";
 		String componentsGUSOPER = "Resources/GUSOPERcomponents.txt";
+		String componentsGUSUPRAV = "Resources/GUSUPRAVcomponents.txt";
 		
 		String signalsTest = "Resources/signals.txt";
 		String signalsMEM = "Resources/MEMsignals.txt";
@@ -33,6 +34,7 @@ public class TestD {
 		String signalsADDR = "Resources/ADDRsignals.txt";
 		String signalsUPRAV = "Resources/UPRAVsignals.txt";
 		String signalsGUSOPER = "Resources/GUSOPERsignals.txt";
+		String signalsGUSUPRAV = "Resources/GUSUPRAVsignals.txt";
 		
 		String connectionsTest = "Resources/connections.txt";
 		String connectionsMEM = "Resources/MEMconnections.txt";
@@ -42,6 +44,7 @@ public class TestD {
 		String connectionsADDR = "Resources/ADDRconnections.txt";
 		String connectionsUPRAV = "Resources/UPRAVconnections.txt";
 		String connectionsGUSOPER = "Resources/GUSOPERconnections.txt";
+		String connectionsGUSUPRAV = "Resources/GUSUPRAVconnections.txt";
 
 		String guiTest = "Resources/lines.txt";
 		String guiSystem = "Resources/linesSystem.txt";
@@ -53,6 +56,7 @@ public class TestD {
 		String guiADDR = "Resources/ADDRlines.txt";
 		String guiUPRAV = "Resources/UPRAVlines.txt";
 		String guiGUSOPER = "Resources/GUSOPERlines.txt";
+		String guiGUSUPRAV = "Resources/GUSUPRAVlines.txt";
 
 		Loader loader = new LoaderFile();
 
@@ -66,6 +70,7 @@ public class TestD {
 		components.addAll(loader.loadComponents(componentsADDR));
 		components.addAll(loader.loadComponents(componentsUPRAV));
 		components.addAll(loader.loadComponents(componentsGUSOPER));
+		components.addAll(loader.loadComponents(componentsGUSUPRAV));
 		
 		List<Connector> connections = loader.loadConnectors(connectionsTest);
 		connections.addAll(loader.loadConnectors(connectionsMEM));
@@ -75,6 +80,7 @@ public class TestD {
 		connections.addAll(loader.loadConnectors(connectionsADDR));
 		connections.addAll(loader.loadConnectors(connectionsUPRAV));
 		connections.addAll(loader.loadConnectors(connectionsGUSOPER));
+		connections.addAll(loader.loadConnectors(connectionsGUSUPRAV));
 		
 		List<Signal> signals = loader.loadSignals(signalsTest);
 		signals.addAll(loader.loadSignals(signalsMEM));
@@ -84,6 +90,7 @@ public class TestD {
 		signals.addAll(loader.loadSignals(signalsADDR));
 		signals.addAll(loader.loadSignals(signalsUPRAV));
 		signals.addAll(loader.loadSignals(signalsGUSOPER));
+		signals.addAll(loader.loadSignals(signalsGUSUPRAV));
 		
 		netlist.setComponents(components);
 		netlist.setSignals(signals);
@@ -103,6 +110,7 @@ public class TestD {
 		drawables.addAll(loader.loadDrawables(guiADDR));
 		drawables.addAll(loader.loadDrawables(guiUPRAV));
 		drawables.addAll(loader.loadDrawables(guiGUSOPER));
+		drawables.addAll(loader.loadDrawables(guiGUSUPRAV));
 		
 		Util.connect(drawables, netlist);
 
