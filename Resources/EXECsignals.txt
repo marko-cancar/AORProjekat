@@ -94,7 +94,6 @@ simulator.SignalSimle	7281	or81out
 simulator.SignalSimle	7284	and84out
 simulator.SignalSimle	7285	and85out
 simulator.SignalSimle	7286	not86out
-simulator.SignalSimle	7290	START
 simulator.SignalSimle	7301	N
 simulator.SignalSimle	7302	or2out
 simulator.SignalSimle	7303	and3out

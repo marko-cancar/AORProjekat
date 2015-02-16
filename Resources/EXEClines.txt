@@ -76,7 +76,6 @@ simulator.gui.OrComponentPresentation	7281	7	690	1780	1	1
 simulator.gui.AndComponentPresentation	7284	7	400	1715	1	1
 simulator.gui.AndComponentPresentation	7285	7	400	1765	1	1
 simulator.gui.NotComponentPresentation	7286	7	340	1780	1	1
-simulator.gui.RSFlipFlopPresentation	7290	7	800	1900	1	1
 simulator.gui.SignalPresentation	7101	7	1278	492	1278	500	1083	500	1083	280
 simulator.gui.SignalPresentation	7100	7	778	475	778	500	1016	500	1016	280
 simulator.gui.SignalPresentation	7103	7	690	300	778	300	778	370
@@ -100,6 +99,91 @@ simulator.gui.SignalPresentation	7134	7	410	210	395	210
 simulator.gui.SignalPresentation	7101	7	1278	492	1278	550	360	550
 simulator.gui.SignalPresentation	600	7	300	550	100	550
 simulator.gui.SignalPresentation	7101	7	600	320	580	320
+simulator.gui.SignalPresentation	101602	7	1300	1400	1300	2570	1400	2570
+simulator.gui.SignalPresentation	101602	7	1300	1520	1400	1520
+simulator.gui.SignalPresentation	101602	7	1300	1720	1400	1720
+simulator.gui.SignalPresentation	101602	7	1300	1920	1400	1920
+simulator.gui.SignalPresentation	101602	7	1300	2120	1400	2120
+simulator.gui.SignalPresentation	101602	7	1300	2320	1400	2320
+simulator.gui.SignalPresentation	101602	7	1300	2520	1400	2520
+simulator.gui.SignalPresentation	101602	7	1300	1570	1400	1570
+simulator.gui.SignalPresentation	101602	7	1300	1770	1400	1770
+simulator.gui.SignalPresentation	101602	7	1300	1970	1400	1970
+simulator.gui.SignalPresentation	101602	7	1300	2170	1400	2170
+simulator.gui.SignalPresentation	101602	7	1300	2370	1400	2370
+simulator.gui.SignalPresentation	101602	7	1300	2570	1400	2570
+simulator.gui.SignalPresentation	7210	7	1750	1520	1800	1520
+simulator.gui.SignalPresentation	7220	7	1750	1720	1800	1720
+simulator.gui.SignalPresentation	7230	7	1750	1920	1800	1920
+simulator.gui.SignalPresentation	7240	7	1750	2120	1800	2120
+simulator.gui.SignalPresentation	7250	7	1750	2320	1800	2320
+simulator.gui.SignalPresentation	7260	7	1750	2520	1800	2520
+simulator.gui.SignalPresentation	7211	7	1750	1600	1800	1600
+simulator.gui.SignalPresentation	7221	7	1750	1800	1800	1800
+simulator.gui.SignalPresentation	7231	7	1750	2000	1800	2000
+simulator.gui.SignalPresentation	7241	7	1750	2200	1800	2200
+simulator.gui.SignalPresentation	7251	7	1750	2400	1800	2400
+simulator.gui.SignalPresentation	7261	7	1750	2600	1800	2600
+simulator.gui.SignalPresentation	7212	7	1610	1505	1690	1505
+simulator.gui.SignalPresentation	7222	7	1610	1705	1690	1705
+simulator.gui.SignalPresentation	7232	7	1610	1905	1690	1905
+simulator.gui.SignalPresentation	7242	7	1610	2105	1690	2105
+simulator.gui.SignalPresentation	7252	7	1610	2305	1690	2305
+simulator.gui.SignalPresentation	7262	7	1610	2505	1690	2505
+simulator.gui.SignalPresentation	7213	7	1610	1615	1690	1615
+simulator.gui.SignalPresentation	7223	7	1610	1815	1690	1815
+simulator.gui.SignalPresentation	7233	7	1610	2015	1690	2015
+simulator.gui.SignalPresentation	7243	7	1610	2215	1690	2215
+simulator.gui.SignalPresentation	7253	7	1610	2415	1690	2415
+simulator.gui.SignalPresentation	7263	7	1610	2615	1690	2615
+simulator.gui.SignalPresentation	7214	7	1460	1535	1690	1535
+simulator.gui.SignalPresentation	7224	7	1460	1735	1690	1735
+simulator.gui.SignalPresentation	7234	7	1460	1935	1690	1935
+simulator.gui.SignalPresentation	7244	7	1460	2135	1690	2135
+simulator.gui.SignalPresentation	7254	7	1460	2335	1690	2335
+simulator.gui.SignalPresentation	7264	7	1460	2535	1690	2535
+simulator.gui.SignalPresentation	7215	7	1460	1585	1690	1585
+simulator.gui.SignalPresentation	7225	7	1460	1785	1690	1785
+simulator.gui.SignalPresentation	7235	7	1460	1985	1690	1985
+simulator.gui.SignalPresentation	7245	7	1460	2185	1690	2185
+simulator.gui.SignalPresentation	7255	7	1460	2385	1690	2385
+simulator.gui.SignalPresentation	7265	7	1460	2585	1690	2585
+simulator.gui.SignalPresentation	101607	7	1550	1600	1525	1600	1525	1490
+simulator.gui.SignalPresentation	101706	7	1550	1800	1525	1800	1525	1690
+simulator.gui.SignalPresentation	101505	7	1550	2000	1525	2000	1525	1890
+simulator.gui.SignalPresentation	101906	7	1550	2200	1525	2200	1525	2090
+simulator.gui.SignalPresentation	7137	7	1550	2400	1525	2400	1525	2290
+simulator.gui.SignalPresentation	7137	7	1550	2600	1525	2600	1525	2490
+simulator.gui.SignalPresentation	101607	7	1550	1490	1250	1490
+simulator.gui.SignalPresentation	101706	7	1550	1690	1250	1690
+simulator.gui.SignalPresentation	101505	7	1550	1890	1250	1890
+simulator.gui.SignalPresentation	101906	7	1550	2090	1250	2090
+simulator.gui.SignalPresentation	7137	7	1550	2290	1250	2290
+simulator.gui.SignalPresentation	7137	7	1550	2490	1250	2490
+simulator.gui.SignalPresentation	7301	7	1550	1520	1465	1520	1465	1560
+simulator.gui.SignalPresentation	7304	7	1550	1720	1465	1720	1465	1760
+simulator.gui.SignalPresentation	7311	7	1550	1920	1465	1920	1465	1960
+simulator.gui.SignalPresentation	7321	7	1550	2120	1465	2120	1465	2160
+simulator.gui.SignalPresentation	7137	7	1550	2320	1465	2320	1465	2360
+simulator.gui.SignalPresentation	7137	7	1550	2520	1465	2520	1465	2560
+simulator.gui.SignalPresentation	7301	7	1490	1630	1465	1630	1465	1560	1250	1560
+simulator.gui.SignalPresentation	7304	7	1490	1830	1465	1830	1465	1760	1250	1760
+simulator.gui.SignalPresentation	7311	7	1490	2030	1465	2030	1465	1960	1250	1960
+simulator.gui.SignalPresentation	7321	7	1490	2230	1465	2230	1465	2160	1250	2160
+simulator.gui.SignalPresentation	7137	7	1490	2430	1465	2430	1465	2360	1250	2360
+simulator.gui.SignalPresentation	7137	7	1490	2630	1465	2630	1465	2560	1250	2560
+simulator.gui.SignalPresentation	7137	7	1400	1550	1320	1550	1320	1600	1250	1600
+simulator.gui.SignalPresentation	7137	7	1400	1750	1320	1750	1320	1800	1250	1800
+simulator.gui.SignalPresentation	7137	7	1400	1950	1320	1950	1320	2000	1250	2000
+simulator.gui.SignalPresentation	7137	7	1400	2150	1320	2150	1320	2200	1250	2200
+simulator.gui.SignalPresentation	7137	7	1400	2350	1320	2350	1320	2400	1250	2400
+simulator.gui.SignalPresentation	7137	7	1400	2550	1320	2550	1320	2600	1250	2600
+simulator.gui.SignalPresentation	7137	7	1320	1600	1340	1600
+simulator.gui.SignalPresentation	7137	7	1320	1800	1340	1800
+simulator.gui.SignalPresentation	7137	7	1320	2000	1340	2000
+simulator.gui.SignalPresentation	7137	7	1320	2200	1340	2200
+simulator.gui.SignalPresentation	7137	7	1320	2400	1340	2400
+simulator.gui.SignalPresentation	7137	7	1320	2600	1340	2600
 simulator.gui.StringPresentation	-1	7	420	215	0
 simulator.gui.StringPresentation	-1	7	420	185	A15..8
 simulator.gui.StringPresentation	-1	7	550	310	B15..0
@@ -135,3 +219,28 @@ simulator.gui.StringPresentation	-1	7	960	1225	ROLC
 simulator.gui.StringPresentation	-1	7	970	1255	ROL
 simulator.gui.StringPresentation	-1	7	970	1285	LSL
 simulator.gui.StringPresentation	-1	7	970	1315	ASL
+simulator.gui.StringPresentation	-1	7	1280	1389	ldPSWL
+simulator.gui.StringPresentation	-1	7	1230	1565	N
+simulator.gui.StringPresentation	-1	7	1230	1765	Z
+simulator.gui.StringPresentation	-1	7	1230	1965	C
+simulator.gui.StringPresentation	-1	7	1230	2165	V
+simulator.gui.StringPresentation	-1	7	1220	2365	prl0
+simulator.gui.StringPresentation	-1	7	1220	2565	prl0
+simulator.gui.StringPresentation	-1	7	1225	1495	ldN
+simulator.gui.StringPresentation	-1	7	1225	1695	ldZ
+simulator.gui.StringPresentation	-1	7	1225	1895	ldC
+simulator.gui.StringPresentation	-1	7	1225	2095	ldV
+simulator.gui.StringPresentation	-1	7	1225	2295	ldL
+simulator.gui.StringPresentation	-1	7	1225	2495	ldL
+simulator.gui.StringPresentation	-1	7	1225	1605	M0
+simulator.gui.StringPresentation	-1	7	1225	1805	M1
+simulator.gui.StringPresentation	-1	7	1225	2005	M2
+simulator.gui.StringPresentation	-1	7	1225	2205	M3
+simulator.gui.StringPresentation	-1	7	1225	2405	M4
+simulator.gui.StringPresentation	-1	7	1225	2605	M5
+simulator.gui.StringPresentation	-1	7	1920	1525	PSWN
+simulator.gui.StringPresentation	-1	7	1920	1725	PSWZ
+simulator.gui.StringPresentation	-1	7	1920	1925	PSWC
+simulator.gui.StringPresentation	-1	7	1920	2125	PSWV
+simulator.gui.StringPresentation	-1	7	1920	2325	PSWI0
+simulator.gui.StringPresentation	-1	7	1920	2525	PSWI1

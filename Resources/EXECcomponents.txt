@@ -81,7 +81,6 @@ simulator.digitalcomponents.OrGate	7281	2
 simulator.digitalcomponents.AndGate	7284	2
 simulator.digitalcomponents.AndGate	7285	2
 simulator.digitalcomponents.NotGate	7286
-simulator.digitalcomponents.RSFlipFlop	 	7290
 simulator.digitalcomponents.AndGate	7301	2
 simulator.digitalcomponents.AndGate	7303	16
 simulator.digitalcomponents.AndGate	7304	2

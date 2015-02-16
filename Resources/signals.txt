@@ -18,3 +18,4 @@ simulator.SignalSimle	20	ABUS
 simulator.SignalSimle	21	DBUS
 simulator.SignalSimle	22	STARTout
 simulator.SignalSimle	23	START
+simulator.SignalSimle	24	notOut
