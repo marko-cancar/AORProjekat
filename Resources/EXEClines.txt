@@ -87,6 +87,14 @@ simulator.gui.AndComponentPresentation	7308	7	1000	3300	1	1
 simulator.gui.OrComponentPresentation	7311	7	1200	3000	1	1
 simulator.gui.OrComponentPresentation	7309	7	800	3085	1	1
 simulator.gui.OrComponentPresentation	7310	7	800	3285	1	1
+simulator.gui.AndComponentPresentation	7314	7	1500	3000	1	1
+simulator.gui.AndComponentPresentation	7315	7	1500	3100	1	1
+simulator.gui.AndComponentPresentation	7313	7	1700	2950	1	1
+simulator.gui.OrComponentPresentation	7316	7	1600	3050	1	1
+simulator.gui.AndComponentPresentation	7318	7	1500	3300	1	1
+simulator.gui.AndComponentPresentation	7319	7	1500	3400	1	1
+simulator.gui.AndComponentPresentation	7317	7	1700	3250	1	1
+simulator.gui.OrComponentPresentation	7320	7	1600	3350	1	1
 simulator.gui.SignalPresentation	7101	7	1278	492	1278	500	1083	500	1083	280
 simulator.gui.SignalPresentation	7100	7	778	475	778	500	1016	500	1016	280
 simulator.gui.SignalPresentation	7103	7	690	300	778	300	778	370

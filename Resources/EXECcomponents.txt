@@ -11,10 +11,11 @@ simulator.digitalcomponents.TriStateBuffer	7132	16	AHout
 simulator.digitalcomponents.Composer	C1	7133	8	2
 simulator.digitalcomponents.ZeroRegisterComponent	7134	8	0
 simulator.digitalcomponents.Decomposer16to8	Adcmphi	7135
-simulator.digitalcomponents.Decomposer	Adcmp	7138	16
 simulator.digitalcomponents.TriStateBuffer	7136	16	Bout
 simulator.digitalcomponents.ZeroRegisterComponent	7137	1	0
 simulator.digitalcomponents.Decomposer	Adcmp	7138	16
+simulator.digitalcomponents.Decomposer	Bdcmp	7139	16
+simulator.digitalcomponents.Decomposer	ALUdcmp	7140	16
 simulator.digitalcomponents.RSFlipFlop	 	7200
 simulator.digitalcomponents.OrGate	7210	2
 simulator.digitalcomponents.OrGate	7211	2

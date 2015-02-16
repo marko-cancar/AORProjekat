@@ -28,6 +28,8 @@ simulator.SignalSimle	7172	A12
 simulator.SignalSimle	7173	A13
 simulator.SignalSimle	7174	A14
 simulator.SignalSimle	7175	A15
+simulator.SignalSimle	7180	B15
+simulator.SignalSimle	7181	ALU15
 simulator.SignalSimle	7200	PSWN
 simulator.SignalSimle	7210	or10out
 simulator.SignalSimle	7211	or11out
