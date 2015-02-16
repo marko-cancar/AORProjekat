@@ -184,6 +184,22 @@ simulator.gui.SignalPresentation	7137	7	1320	2000	1340	2000
 simulator.gui.SignalPresentation	7137	7	1320	2200	1340	2200
 simulator.gui.SignalPresentation	7137	7	1320	2400	1340	2400
 simulator.gui.SignalPresentation	7137	7	1320	2600	1340	2600
+simulator.gui.SignalPresentation	101603	7	300	1400	300	1770	400	1770
+simulator.gui.SignalPresentation	101603	7	400	1720	300	1720
+simulator.gui.SignalPresentation	101603	7	400	1520	300	1520
+simulator.gui.SignalPresentation	101603	7	400	1570	300	1570
+simulator.gui.SignalPresentation	7270	7	750	1520	800	1520
+simulator.gui.SignalPresentation	7271	7	750	1600	800	1600
+simulator.gui.SignalPresentation	7280	7	750	1720	800	1720
+simulator.gui.SignalPresentation	7281	7	750	1800	800	1800
+simulator.gui.SignalPresentation	7274	7	460	1535	690	1535
+simulator.gui.SignalPresentation	7275	7	460	1585	690	1585
+simulator.gui.SignalPresentation	7284	7	460	1735	690	1735
+simulator.gui.SignalPresentation	7285	7	460	1785	690	1785
+simulator.gui.SignalPresentation	7137	7	400	1550	320	1550	320	1600	250	1600
+simulator.gui.SignalPresentation	7137	7	400	1750	320	1750	320	1800	250	1800
+simulator.gui.SignalPresentation	7137	7	340	1600	320	1600
+simulator.gui.SignalPresentation	7137	7	340	1800	320	1800
 simulator.gui.StringPresentation	-1	7	420	215	0
 simulator.gui.StringPresentation	-1	7	420	185	A15..8
 simulator.gui.StringPresentation	-1	7	550	310	B15..0
@@ -220,6 +236,7 @@ simulator.gui.StringPresentation	-1	7	970	1255	ROL
 simulator.gui.StringPresentation	-1	7	970	1285	LSL
 simulator.gui.StringPresentation	-1	7	970	1315	ASL
 simulator.gui.StringPresentation	-1	7	1280	1389	ldPSWL
+simulator.gui.StringPresentation	-1	7	280	1389	ldPSWH
 simulator.gui.StringPresentation	-1	7	1230	1565	N
 simulator.gui.StringPresentation	-1	7	1230	1765	Z
 simulator.gui.StringPresentation	-1	7	1230	1965	C
@@ -244,3 +261,11 @@ simulator.gui.StringPresentation	-1	7	1920	1925	PSWC
 simulator.gui.StringPresentation	-1	7	1920	2125	PSWV
 simulator.gui.StringPresentation	-1	7	1920	2325	PSWI0
 simulator.gui.StringPresentation	-1	7	1920	2525	PSWI1
+simulator.gui.StringPresentation	-1	7	640	1510	stPSWI
+simulator.gui.StringPresentation	-1	7	640	1620	clPSWI
+simulator.gui.StringPresentation	-1	7	640	1710	stPSWT
+simulator.gui.StringPresentation	-1	7	640	1820	clPSWT
+simulator.gui.StringPresentation	-1	7	225	1605	M7
+simulator.gui.StringPresentation	-1	7	225	1805	M6
+simulator.gui.StringPresentation	-1	7	920	1525	PSWI
+simulator.gui.StringPresentation	-1	7	920	1725	PSWT
