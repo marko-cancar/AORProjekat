@@ -8,6 +8,8 @@ simulator.digitalcomponents.Coder	CD1	7141	4
 simulator.digitalcomponents.Coder	CD2	7142	4
 simulator.digitalcomponents.TriStateBuffer	7131	16	Aout
 simulator.digitalcomponents.TriStateBuffer	7132	16	AHout
+simulator.digitalcomponents.Composer	C1	7133	8	2
+simulator.digitalcomponents.ZeroRegisterComponent	7134	8	0
 simulator.digitalcomponents.RSFlipFlop	 	7200
 simulator.digitalcomponents.OrGate	7210	2
 simulator.digitalcomponents.OrGate	7211	2
