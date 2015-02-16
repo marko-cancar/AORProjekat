@@ -29,6 +29,7 @@ public class TestD {
 		String signalsMEM = "Resources/MEMsignals.txt";
 		String signalsBUS = "Resources/BUSsignals.txt";
 		String signalsFETCH = "Resources/FETCHsignals.txt";
+		String signalsEXEC = "Resources/EXECsignals.txt";
 		String signalsADDR = "Resources/ADDRsignals.txt";
 		String signalsUPRAV = "Resources/UPRAVsignals.txt";
 		String signalsGUSOPER = "Resources/GUSOPERsignals.txt";
@@ -37,6 +38,7 @@ public class TestD {
 		String connectionsMEM = "Resources/MEMconnections.txt";
 		String connectionsBUS = "Resources/BUSconnections.txt";
 		String connectionsFETCH = "Resources/FETCHconnections.txt";
+		String connectionsEXEC = "Resources/EXECconnections.txt";
 		String connectionsADDR = "Resources/ADDRconnections.txt";
 		String connectionsUPRAV = "Resources/UPRAVconnections.txt";
 		String connectionsGUSOPER = "Resources/GUSOPERconnections.txt";
@@ -69,6 +71,7 @@ public class TestD {
 		connections.addAll(loader.loadConnectors(connectionsMEM));
 		connections.addAll(loader.loadConnectors(connectionsBUS));
 		connections.addAll(loader.loadConnectors(connectionsFETCH));
+		connections.addAll(loader.loadConnectors(connectionsEXEC));
 		connections.addAll(loader.loadConnectors(connectionsADDR));
 		connections.addAll(loader.loadConnectors(connectionsUPRAV));
 		connections.addAll(loader.loadConnectors(connectionsGUSOPER));
@@ -77,6 +80,7 @@ public class TestD {
 		signals.addAll(loader.loadSignals(signalsMEM));
 		signals.addAll(loader.loadSignals(signalsBUS));
 		signals.addAll(loader.loadSignals(signalsFETCH));
+		signals.addAll(loader.loadSignals(signalsEXEC));
 		signals.addAll(loader.loadSignals(signalsADDR));
 		signals.addAll(loader.loadSignals(signalsUPRAV));
 		signals.addAll(loader.loadSignals(signalsGUSOPER));
