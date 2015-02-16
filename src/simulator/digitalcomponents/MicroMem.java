@@ -49,18 +49,89 @@ public class MicroMem extends LogicComponentSimple {
 		if(words==null){
 			words = new ArrayList<>();
 		}
-		for(int i=0; i<CAPACITY; i++){
-			MultipleDigitalValue mdv = new MultipleDigitalValue(wordSize);
-			// kurac for petlja, puni rucno!!!
-			if(id==1006){
-				mdv.setUIntValue(0x5eab3fc+i);
-			}
-			else if(id==1007){
-				mdv.setUIntValue(i);
-			}
-			else if(id==1008){
-				mdv.setUIntValue(i);
-			}
+		MultipleDigitalValue mdv;
+		if(id==1006){
+			//0
+			mdv = new MultipleDigitalValue(wordSize);
+			mdv.setUIntValue(0x0);
+			words.add(mdv);
+			//1
+			mdv = new MultipleDigitalValue(wordSize);
+			mdv.setUIntValue(0x1021112);
+			words.add(mdv);
+			//2
+			mdv = new MultipleDigitalValue(wordSize);
+			mdv.setUIntValue(0x0);
+			words.add(mdv);
+			//3
+			mdv = new MultipleDigitalValue(wordSize);
+			mdv.setUIntValue(0x0);
+			words.add(mdv);
+			//4
+			mdv = new MultipleDigitalValue(wordSize);
+			mdv.setUIntValue(0x0210000);
+			words.add(mdv);
+			//5
+			mdv = new MultipleDigitalValue(wordSize);
+			mdv.setUIntValue(0x3000200);
+			words.add(mdv);
+		}
+		else if(id==1007){
+			//0
+			mdv = new MultipleDigitalValue(wordSize);
+			mdv.setUIntValue(0x02);
+			words.add(mdv);
+			//1
+			mdv = new MultipleDigitalValue(wordSize);
+			mdv.setUIntValue(0x0);
+			words.add(mdv);
+			//2
+			mdv = new MultipleDigitalValue(wordSize);
+			mdv.setUIntValue(0x03);
+			words.add(mdv);
+			//3
+			mdv = new MultipleDigitalValue(wordSize);
+			mdv.setUIntValue(0x04);
+			words.add(mdv);
+			//4
+			mdv = new MultipleDigitalValue(wordSize);
+			mdv.setUIntValue(0x0);
+			words.add(mdv);
+			//5
+			mdv = new MultipleDigitalValue(wordSize);
+			mdv.setUIntValue(0x0);
+			words.add(mdv);
+		}
+		else if(id==1008){
+			//0
+			mdv = new MultipleDigitalValue(wordSize);
+			mdv.setUIntValue(0x0);
+			words.add(mdv);
+			//1
+			mdv = new MultipleDigitalValue(wordSize);
+			mdv.setUIntValue(0x0);
+			words.add(mdv);
+			//2
+			mdv = new MultipleDigitalValue(wordSize);
+			mdv.setUIntValue(0x90);
+			words.add(mdv);
+			//3
+			mdv = new MultipleDigitalValue(wordSize);
+			mdv.setUIntValue(0x02);
+			words.add(mdv);
+			//4
+			mdv = new MultipleDigitalValue(wordSize);
+			mdv.setUIntValue(0x0);
+			words.add(mdv);
+			//5
+			mdv = new MultipleDigitalValue(wordSize);
+			mdv.setUIntValue(0x0);
+			words.add(mdv);
+		}
+		
+		for(int i=6; i<CAPACITY; i++){
+			mdv = new MultipleDigitalValue(wordSize);
+			mdv.setIntValue(0x3b);
 			words.add(mdv);
 		}
 		execute();

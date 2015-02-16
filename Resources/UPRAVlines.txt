@@ -29,3 +29,19 @@ simulator.gui.ClickablePresentationWidthHeight	-1	10	400	1000	200	200	12	//gener
 simulator.gui.StringInRectanglePresentation	-1	10	400	1000	200	200	Generisanje uprav.sign. uprav.
 simulator.gui.SignalPresentation	1009	10	194	893	194	1000
 simulator.gui.SignalPresentation	1009	10	394	893	394	920	500	920	500	1000
+simulator.gui.SignalPresentation	103116	10	440	1200	440	1220
+simulator.gui.StringPresentation	-1	10	425	1231	bradr
+simulator.gui.SignalPresentation	103117	10	480	1200	480	1220
+simulator.gui.StringPresentation	-1	10	465	1231	bropr
+simulator.gui.SignalPresentation	103200	10	520	1200	520	1220
+simulator.gui.StringPresentation	-1	10	505	1231	brcnd
+simulator.gui.SignalPresentation	103101	10	560	1200	560	1220
+simulator.gui.StringPresentation	-1	10	545	1231	bruncnd
+simulator.gui.SignalPresentation	1011	10	594	893	594	900	1100	900	1100	200	300	200	300	280	350	280
+simulator.gui.StringPresentation	-1	10	130	41	INTE
+simulator.gui.StringPresentation	-1	10	166	41	INTD
+simulator.gui.StringPresentation	-1	10	240	41	RTS
+simulator.gui.StringPresentation	-1	10	514	41	regdir
+simulator.gui.StringPresentation	-1	10	549	41	regindpom
+simulator.gui.StringPresentation	-1	10	610	41	pcrel
+simulator.gui.StringPresentation	-1	10	642	41	immed
