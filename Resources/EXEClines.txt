@@ -87,14 +87,7 @@ simulator.gui.AndComponentPresentation	7308	7	1000	3300	1	1
 simulator.gui.OrComponentPresentation	7311	7	1200	3000	1	1
 simulator.gui.OrComponentPresentation	7309	7	800	3085	1	1
 simulator.gui.OrComponentPresentation	7310	7	800	3285	1	1
-simulator.gui.AndComponentPresentation	7314	7	1500	3000	1	1
-simulator.gui.AndComponentPresentation	7315	7	1500	3100	1	1
-simulator.gui.AndComponentPresentation	7313	7	1700	2950	1	1
-simulator.gui.OrComponentPresentation	7316	7	1600	3050	1	1
-simulator.gui.AndComponentPresentation	7318	7	1500	3300	1	1
-simulator.gui.AndComponentPresentation	7319	7	1500	3400	1	1
-simulator.gui.AndComponentPresentation	7317	7	1700	3250	1	1
-simulator.gui.OrComponentPresentation	7320	7	1600	3350	1	1
+simulator.gui.MultiplexerComponentPresentation	7418	7	1500	2800	1	1
 simulator.gui.SignalPresentation	7101	7	1278	492	1278	500	1083	500	1083	280
 simulator.gui.SignalPresentation	7100	7	778	475	778	500	1016	500	1016	280
 simulator.gui.SignalPresentation	7103	7	690	300	778	300	778	370
@@ -378,3 +371,24 @@ simulator.gui.StringPresentation	-1	7	760	3125	ROR
 simulator.gui.StringPresentation	-1	7	760	3140	RORC
 simulator.gui.StringPresentation	-1	7	970	3140	A0
 simulator.gui.StringPresentation	-1	7	970	3340	A15
+simulator.gui.StringPresentation	-1	7	1470	2835	eql
+simulator.gui.StringPresentation	-1	7	1470	2875	neql
+simulator.gui.StringPresentation	-1	7	1470	2915	neg
+simulator.gui.StringPresentation	-1	7	1470	2955	nneg
+simulator.gui.StringPresentation	-1	7	1470	2995	ovf
+simulator.gui.StringPresentation	-1	7	1470	3035	nvf
+simulator.gui.StringPresentation	-1	7	1470	3075	cr
+simulator.gui.StringPresentation	-1	7	1470	3115	ncr
+simulator.gui.StringPresentation	-1	7	1470	3155	grt
+simulator.gui.StringPresentation	-1	7	1470	3195	gre
+simulator.gui.StringPresentation	-1	7	1470	3235	lss
+simulator.gui.StringPresentation	-1	7	1470	3275	leq
+simulator.gui.StringPresentation	-1	7	1470	3315	grtu
+simulator.gui.StringPresentation	-1	7	1470	3355	greu
+simulator.gui.StringPresentation	-1	7	1470	3395	lssu
+simulator.gui.StringPresentation	-1	7	1470	3435	lequ
+simulator.gui.StringPresentation	-1	7	1530	3500	IR24
+simulator.gui.StringPresentation	-1	7	1560	3500	IR25
+simulator.gui.StringPresentation	-1	7	1590	3500	IR26
+simulator.gui.StringPresentation	-1	7	1620	3500	IR27
+simulator.gui.StringPresentation	-1	7	1690	3135	brpom
