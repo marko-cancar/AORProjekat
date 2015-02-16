@@ -2,6 +2,8 @@ simulator.SignalSimle	7100	Aout
 simulator.SignalSimle	7101	Bout
 simulator.SignalSimle	7102	ALUout
 simulator.SignalSimle	7103	MX3out
+simulator.SignalSimle	7104	IR
+simulator.SignalSimle	7105	IL
 simulator.SignalSimle	7141	dec1out
 simulator.SignalSimle	7142	dec2out
 simulator.SignalSimle	7143	dec3out

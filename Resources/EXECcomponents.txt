@@ -1,4 +1,4 @@
-simulator.digitalcomponents.RegisterComponent	A	7100	16	0
+simulator.digitalcomponents.Acc	A	7100	16	0
 simulator.digitalcomponents.RegisterComponent	B	7101	16	0
 simulator.digitalcomponents.ALU	ALU	7110
 simulator.digitalcomponents.MultiplexerComponent	MX3	7123	16	2	1

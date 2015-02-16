@@ -1,4 +1,4 @@
-simulator.gui.RegisterComponentPresentation	7100	7	700	400	1	1
+simulator.gui.AccPresentation	7100	7	700	360	1	1
 simulator.gui.RegisterComponentPresentation	7101	7	1200	400	1	1
 simulator.gui.ALUPresentation	7110	7	950	150	1	1
 simulator.gui.MultiplexerComponentPresentation	7123	7	600	250	1	1
@@ -78,10 +78,16 @@ simulator.gui.AndComponentPresentation	7285	7	400	1765	1	1
 simulator.gui.NotComponentPresentation	7286	7	340	1780	1	1
 simulator.gui.RSFlipFlopPresentation	7290	7	800	1900	1	1
 simulator.gui.SignalPresentation	7101	7	1278	492	1278	500	1083	500	1083	280
-simulator.gui.SignalPresentation	7100	7	778	492	778	500	1016	500	1016	280
-simulator.gui.SignalPresentation	7103	7	690	300	778	300	778	400
+simulator.gui.SignalPresentation	7100	7	778	475	778	500	1016	500	1016	280
+simulator.gui.SignalPresentation	7103	7	690	300	778	300	778	370
+simulator.gui.SignalPresentation	7104	7	720	990	750	990	750	800	630	800	630	395	700	395
+simulator.gui.SignalPresentation	7105	7	1320	990	1350	990	1350	800	930	800	930	395	860	395
 simulator.gui.SignalPresentation	7102	7	1050	151	1050	100
 simulator.gui.SignalPresentation	7102	7	1050	100	550	100	550	190
+simulator.gui.SignalPresentation	7141	7	520	1220	645	1220	645	1100
+simulator.gui.SignalPresentation	7142	7	520	1250	675	1250	675	1100
+simulator.gui.SignalPresentation	7143	7	1120	1220	1245	1220	1245	1100
+simulator.gui.SignalPresentation	7144	7	1120	1250	1275	1250	1275	1100
 simulator.gui.SignalPresentation	600	7	1278	400	1278	50	100	50	100	1400	0	1400
 simulator.gui.SignalPresentation	600	7	100	50	100	0
 simulator.gui.SignalPresentation	7102	7	550	100	450	100
