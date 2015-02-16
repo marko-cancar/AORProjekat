@@ -22,6 +22,7 @@ public class TestD {
 		String componentsFETCH = "Resources/FETCHcomponents.txt";
 		String componentsEXEC = "Resources/EXECcomponents.txt";
 		String componentsADDR = "Resources/ADDRcomponents.txt";
+		String componentsINTR = "Resources/INTRcomponents.txt";
 		String componentsUPRAV = "Resources/UPRAVcomponents.txt";
 		String componentsGUSOPER = "Resources/GUSOPERcomponents.txt";
 		String componentsGUSUPRAV = "Resources/GUSUPRAVcomponents.txt";
@@ -32,6 +33,7 @@ public class TestD {
 		String signalsFETCH = "Resources/FETCHsignals.txt";
 		String signalsEXEC = "Resources/EXECsignals.txt";
 		String signalsADDR = "Resources/ADDRsignals.txt";
+		String signalsINTR = "Resources/INTRsignals.txt";
 		String signalsUPRAV = "Resources/UPRAVsignals.txt";
 		String signalsGUSOPER = "Resources/GUSOPERsignals.txt";
 		String signalsGUSUPRAV = "Resources/GUSUPRAVsignals.txt";
@@ -42,6 +44,7 @@ public class TestD {
 		String connectionsFETCH = "Resources/FETCHconnections.txt";
 		String connectionsEXEC = "Resources/EXECconnections.txt";
 		String connectionsADDR = "Resources/ADDRconnections.txt";
+		String connectionsINTR = "Resources/INTRconnections.txt";
 		String connectionsUPRAV = "Resources/UPRAVconnections.txt";
 		String connectionsGUSOPER = "Resources/GUSOPERconnections.txt";
 		String connectionsGUSUPRAV = "Resources/GUSUPRAVconnections.txt";
@@ -54,6 +57,7 @@ public class TestD {
 		String guiFETCH = "Resources/FETCHlines.txt";
 		String guiEXEC = "Resources/EXEClines.txt";
 		String guiADDR = "Resources/ADDRlines.txt";
+		String guiINTR = "Resources/INTRlines.txt";
 		String guiUPRAV = "Resources/UPRAVlines.txt";
 		String guiGUSOPER = "Resources/GUSOPERlines.txt";
 		String guiGUSUPRAV = "Resources/GUSUPRAVlines.txt";
@@ -68,6 +72,7 @@ public class TestD {
 		components.addAll(loader.loadComponents(componentsFETCH));
 		components.addAll(loader.loadComponents(componentsEXEC));
 		components.addAll(loader.loadComponents(componentsADDR));
+		components.addAll(loader.loadComponents(componentsINTR));
 		components.addAll(loader.loadComponents(componentsUPRAV));
 		components.addAll(loader.loadComponents(componentsGUSOPER));
 		components.addAll(loader.loadComponents(componentsGUSUPRAV));
@@ -78,6 +83,7 @@ public class TestD {
 		connections.addAll(loader.loadConnectors(connectionsFETCH));
 		connections.addAll(loader.loadConnectors(connectionsEXEC));
 		connections.addAll(loader.loadConnectors(connectionsADDR));
+		connections.addAll(loader.loadConnectors(connectionsINTR));
 		connections.addAll(loader.loadConnectors(connectionsUPRAV));
 		connections.addAll(loader.loadConnectors(connectionsGUSOPER));
 		connections.addAll(loader.loadConnectors(connectionsGUSUPRAV));
@@ -88,6 +94,7 @@ public class TestD {
 		signals.addAll(loader.loadSignals(signalsFETCH));
 		signals.addAll(loader.loadSignals(signalsEXEC));
 		signals.addAll(loader.loadSignals(signalsADDR));
+		signals.addAll(loader.loadSignals(signalsINTR));
 		signals.addAll(loader.loadSignals(signalsUPRAV));
 		signals.addAll(loader.loadSignals(signalsGUSOPER));
 		signals.addAll(loader.loadSignals(signalsGUSUPRAV));
@@ -108,6 +115,7 @@ public class TestD {
 		drawables.addAll(loader.loadDrawables(guiFETCH));
 		drawables.addAll(loader.loadDrawables(guiEXEC));
 		drawables.addAll(loader.loadDrawables(guiADDR));
+		drawables.addAll(loader.loadDrawables(guiINTR));
 		drawables.addAll(loader.loadDrawables(guiUPRAV));
 		drawables.addAll(loader.loadDrawables(guiGUSOPER));
 		drawables.addAll(loader.loadDrawables(guiGUSUPRAV));

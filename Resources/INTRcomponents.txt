@@ -1,0 +1,7 @@
+simulator.digitalcomponents.RSFlipFlop	 	8000
+simulator.digitalcomponents.RSFlipFlop	 	8001
+simulator.digitalcomponents.RSFlipFlop	 	8002
+simulator.digitalcomponents.RSFlipFlop	 	8003
+simulator.digitalcomponents.RSFlipFlop	 	8004
+simulator.digitalcomponents.RSFlipFlop	 	8005
+simulator.digitalcomponents.RSFlipFlop	 	8006
