@@ -1,0 +1,17 @@
+01	bruncnd
+02	brNotStart
+03	brPageFault
+04	brNotCRP
+05	brNotGropr
+06	brNotGradr
+07	brL1
+08	brL2Brnch
+09	brL2Arlog
+0A	brL3Brnch
+0B	brL3Arlog
+0C	brStore
+0D	brRegdir
+0E	brNotBrpom
+0F	brNotPrekid
+10	bradr
+11	bropr

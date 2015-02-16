@@ -59,18 +59,12 @@ public class ControlUnit {
 		if(state == State.state0){
 		} 
 		if(state == State.state1){
-			
 		}
 		if(state == State.state2){
-			commands.add("PCout");
-			commands.add("incPC");
-			commands.add("ldMAR");
 		}
 		if(state == State.state3){
-			commands.add("ldMDR");
 		}
 		if(state == State.state4){
-			commands.add("MDRout");
 		}
 		if(state == State.state5){
 		}
