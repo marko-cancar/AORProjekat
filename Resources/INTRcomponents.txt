@@ -5,3 +5,8 @@ simulator.digitalcomponents.RSFlipFlop	 	8003
 simulator.digitalcomponents.RSFlipFlop	 	8004
 simulator.digitalcomponents.RSFlipFlop	 	8005
 simulator.digitalcomponents.RSFlipFlop	 	8006
+simulator.digitalcomponents.RegisterComponent	IMR	8007	16	0
+simulator.digitalcomponents.TriStateBuffer	8008	16	IMRout
+simulator.digitalcomponents.Decoder	DC	8009	2
+simulator.digitalcomponents.OrGate	8010	6
+simulator.digitalcomponents.AndGate	8011	2

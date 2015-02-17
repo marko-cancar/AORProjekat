@@ -5,3 +5,52 @@ simulator.gui.RSFlipFlopPresentation	8003	8	100	400	1	1
 simulator.gui.RSFlipFlopPresentation	8004	8	100	700	1	1
 simulator.gui.RSFlipFlopPresentation	8005	8	400	700	1	1
 simulator.gui.RSFlipFlopPresentation	8006	8	700	700	1	1
+simulator.gui.RegisterComponentPresentation	8007	8	550	350	1	1
+simulator.gui.TriStateBufferPresentation	8008	8	500	500	1	1
+simulator.gui.DecoderPresentation	8009	8	500	1000	1	1
+simulator.gui.OrComponentPresentation	8010	8	200	1000	1	1
+simulator.gui.AndComponentPresentation	8011	8	100	1150	1	1
+simulator.gui.SignalPresentation	600	8	400	600	400	250
+simulator.gui.SignalPresentation	600	8	400	300	628	300	628	350
+simulator.gui.SignalPresentation	600	8	500	510	400	510
+simulator.gui.SignalPresentation	8007	8	560	510	628	510	628	440
+simulator.gui.SignalPresentation	8012	8	160	1170	175	1170	175	1065	200	1065
+simulator.gui.StringPresentation	-1	8	45	125	stPRINS
+simulator.gui.StringPresentation	-1	8	345	125	stPRCOD
+simulator.gui.StringPresentation	-1	8	645	125	stPRADR
+simulator.gui.StringPresentation	-1	8	45	205	clPRINS
+simulator.gui.StringPresentation	-1	8	345	205	clPRCOD
+simulator.gui.StringPresentation	-1	8	645	205	clPRADR
+simulator.gui.StringPresentation	-1	8	60	425	inm
+simulator.gui.StringPresentation	-1	8	45	505	clPRINM
+simulator.gui.StringPresentation	-1	8	55	725	intr3
+simulator.gui.StringPresentation	-1	8	355	725	intr2
+simulator.gui.StringPresentation	-1	8	655	725	intr1
+simulator.gui.StringPresentation	-1	8	45	805	clINTR3
+simulator.gui.StringPresentation	-1	8	345	805	clINTR2
+simulator.gui.StringPresentation	-1	8	645	805	clINTR1
+simulator.gui.StringPresentation	-1	8	220	125	PRINS
+simulator.gui.StringPresentation	-1	8	520	125	PRCOD
+simulator.gui.StringPresentation	-1	8	820	125	PRADR
+simulator.gui.StringPresentation	-1	8	220	725	PRINTR3
+simulator.gui.StringPresentation	-1	8	520	725	PRINTR2
+simulator.gui.StringPresentation	-1	8	820	725	PRINTR1
+simulator.gui.StringPresentation	-1	8	220	425	PRINM
+simulator.gui.StringPresentation	-1	8	515	560	IMRout
+simulator.gui.StringPresentation	-1	8	720	390	ldIMR
+simulator.gui.StringPresentation	-1	8	410	280	IB
+simulator.gui.StringPresentation	-1	8	150	980	PRINS
+simulator.gui.StringPresentation	-1	8	150	995	PRCOD
+simulator.gui.StringPresentation	-1	8	150	1010	PRADR
+simulator.gui.StringPresentation	-1	8	150	1040	PRINM
+simulator.gui.StringPresentation	-1	8	160	1055	printr
+simulator.gui.StringPresentation	-1	8	270	1025	prekid
+simulator.gui.StringPresentation	-1	8	60	1160	PSWT
+simulator.gui.StringPresentation	-1	8	75	1190	RTI
+simulator.gui.StringPresentation	-1	8	475	1025	prl0
+simulator.gui.StringPresentation	-1	8	475	1055	prl1
+simulator.gui.StringPresentation	-1	8	625	1025	clINTR0
+simulator.gui.StringPresentation	-1	8	625	1055	clINTR1
+simulator.gui.StringPresentation	-1	8	625	1085	clINTR2
+simulator.gui.StringPresentation	-1	8	625	1115	clINTR3
+simulator.gui.StringPresentation	-1	8	545	1165	clINTR

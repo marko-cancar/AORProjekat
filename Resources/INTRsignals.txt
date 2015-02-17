@@ -1,0 +1,14 @@
+simulator.SignalSimle	8000	PRINS
+simulator.SignalSimle	8001	PRCOD
+simulator.SignalSimle	8002	PRADR
+simulator.SignalSimle	8003	PRINM
+simulator.SignalSimle	8004	PRINTR3
+simulator.SignalSimle	8005	PRINTR2
+simulator.SignalSimle	8006	PRINTR1
+simulator.SignalSimle	8007	IMR15..0
+simulator.SignalSimle	8008	clINTR0
+simulator.SignalSimle	8009	clINTR1
+simulator.SignalSimle	8010	clINTR2
+simulator.SignalSimle	8011	clINTR3
+simulator.SignalSimle	8012	andout
+simulator.SignalSimle	8013	prekid
