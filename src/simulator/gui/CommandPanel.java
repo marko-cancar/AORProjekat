@@ -29,7 +29,7 @@ public class CommandPanel extends JPanel {
 		super();
 		this.parent = guiFrame;
 		this.setSize(490, 390);
-		setBackground(Color.YELLOW);
+		setBackground(Color.WHITE);
 
 		JButton button = new JButton("Next");
 		button.addActionListener(new MyActionListener());

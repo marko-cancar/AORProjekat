@@ -36,7 +36,7 @@ public class ValueTablePanel extends JPanel {
 
 		area = new JTextArea();
 		area.setEditable(false);
-		area.setBackground(Color.magenta);
+		area.setBackground(Color.white);
 		add(area);
 
 		signals = new LinkedList<Signal>();
