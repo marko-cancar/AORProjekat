@@ -57,17 +57,38 @@ public class MemModule extends LogicComponentSimple {
 		if(bytes==null){
 			bytes = new ArrayList<>();
 		}
-		for(int i=0; i<65536; i++){
-			MultipleDigitalValue mdv = new MultipleDigitalValue(8);
-			if(i==3){
-				mdv.setIntValue(-128);
-			}
-			else{
-				mdv.setIntValue(i%10);
-			}
-			
+		MultipleDigitalValue mdv = new MultipleDigitalValue(8);
+
+		// load R0
+		mdv.setUIntValue(192);
+		bytes.add(mdv);
+		mdv = new MultipleDigitalValue(8);
+		mdv.setUIntValue(0);
+		bytes.add(mdv);
+
+		// add R1
+		mdv = new MultipleDigitalValue(8);
+		mdv.setUIntValue(194);
+		bytes.add(mdv);
+		mdv = new MultipleDigitalValue(8);
+		mdv.setUIntValue(1);
+		bytes.add(mdv);
+
+		// store R2
+		mdv = new MultipleDigitalValue(8);
+		mdv.setUIntValue(193);
+		bytes.add(mdv);
+		mdv = new MultipleDigitalValue(8);
+		mdv.setUIntValue(2);
+		bytes.add(mdv);	
+
+		for(int i=6; i<65536; i++){
+			mdv = new MultipleDigitalValue(8);
+			mdv.setUIntValue(0);
 			bytes.add(mdv);
 		}
+		
+		
 		Port out = ports.get(4);
 		Port addr = ports.get(2);
 		out.getValue().load(bytes.get(addr.getValue().getUIntValue()));
