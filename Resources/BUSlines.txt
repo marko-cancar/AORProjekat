@@ -28,3 +28,11 @@ simulator.gui.StringPresentation	-1	5	565	538	ldDL
 simulator.gui.StringPresentation	-1	5	865	538	ldDH
 simulator.gui.StringPresentation	-1	5	266	432	MDRout
 simulator.gui.StringPresentation	-1	5	266	732	Dout
+simulator.gui.TriStateBufferPresentation	510	5	900	100	1	1
+simulator.gui.TriStateBufferPresentation	511	5	900	160	1	1
+simulator.gui.StringPresentation	-1	5	963	115	0
+simulator.gui.StringPresentation	-1	5	963	175	0
+simulator.gui.StringPresentation	-1	5	930	142	rd
+simulator.gui.StringPresentation	-1	5	930	203	wr
+simulator.gui.StringPresentation	-1	5	850	115	#RDBUS
+simulator.gui.StringPresentation	-1	5	850	175	#WRBUS

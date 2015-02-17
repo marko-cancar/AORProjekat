@@ -7,6 +7,7 @@ import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JDialog;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 import simulator.CommandExecutor;
@@ -24,7 +25,9 @@ public class CommandPanel extends JPanel {
 
 	private CommandExecutor commandExecutor;
 	private ControlUnit controlUnit;
-
+	private JLabel clkLabel;
+	private int clk;
+	
 	public CommandPanel(JFrame guiFrame, Simulator simulator) {
 		super();
 		this.parent = guiFrame;
@@ -42,6 +45,9 @@ public class CommandPanel extends JPanel {
 		this.simulator = simulator;
 		commandExecutor = new CommandExecutor(simulator);
 		controlUnit = new ControlUnit(simulator);
+		clkLabel = new JLabel("CLK: 0");
+		clk = -1;
+		add(clkLabel);
 	}
 	
 	private int interval = 1;
@@ -60,6 +66,8 @@ public class CommandPanel extends JPanel {
 			   simulator.simulate(simulator.getCurrentTime() + interval - 1);
 			   //((TimeDrivenSimulator)simulator).updateSignals();
 			   interval = 20;
+			   clk++;
+			   clkLabel.setText("CLK: "+clk);
 			   parent.repaint();
 		}
 	}

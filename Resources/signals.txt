@@ -1,6 +1,9 @@
 simulator.SignalSimle	0	CLKCPU
 simulator.SignalSimle	1	CLKMEM
 simulator.SignalSimle	2	CLKBUS
+simulator.SignalSimle	30	#FCBUS
+simulator.SignalSimle	31	#RDBUS
+simulator.SignalSimle	32	#WRBUS
 simulator.SignalSimle	3	34
 simulator.SignalSimle	4	45
 simulator.SignalSimle	5	56

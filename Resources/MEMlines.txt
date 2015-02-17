@@ -1,84 +1,42 @@
-simulator.gui.NotComponentPresentation	300	3	100	200	1	1
-simulator.gui.DFlipFlopPresentation	301	3	200	200	1	1
-simulator.gui.DFlipFlopPresentation	302	3	400	200	1	1
-simulator.gui.AndComponentPresentation	303	3	600	100	1	1
-simulator.gui.AndComponentPresentation	304	3	600	215	1	1
-simulator.gui.NotComponentPresentation	305	3	100	400	1	1
-simulator.gui.DFlipFlopPresentation	306	3	200	400	1	1
-simulator.gui.DFlipFlopPresentation	307	3	400	400	1	1
-simulator.gui.AndComponentPresentation	308	3	600	300	1	1
-simulator.gui.AndComponentPresentation	309	3	600	415	1	1
-simulator.gui.MemModulePresentation	310	3	200	600	1	1
-simulator.gui.TriStateBufferPresentation	311	3	100	800	1	1
-simulator.gui.OrComponentPresentation	312	3	600	600	1	1
-simulator.gui.RSFlipFlopPresentation	313	3	700	600	1	1
-simulator.gui.NotComponentPresentation	314	3	850	650	1	1
-simulator.gui.TriStateBufferPresentationRight	315	3	930	660	1	1
-simulator.gui.DFlipFlopPresentation	316	3	500	680	1	1
-simulator.gui.RSFlipFlopPresentation	317	3	500	850	1	1
-simulator.gui.OrComponentPresentation	318	3	300	930	1	1
-simulator.gui.AndComponentPresentation	319	3	800	1000	1	1
-simulator.gui.RSFlipFlopPresentation	320	3	1000	1000	1	1
-simulator.gui.DFlipFlopPresentation	321	3	800	1080	1	1
-simulator.gui.OrComponentPresentation	322	3	100	1300	1	1
-simulator.gui.RSFlipFlopPresentation	323	3	200	1300	1	1
-simulator.gui.NotComponentPresentation	324	3	350	1330	1	1
-simulator.gui.AndComponentPresentation	325	3	450	1315	1	1
-simulator.gui.AndComponentPresentation	326	3	450	1400	1	1
-simulator.gui.RegisterComponentPresentation	327	3	600	1300	1	1
-simulator.gui.RegisterComponentPresentation	328	3	500	1490	1	1
-simulator.gui.CMPPresentation	329	3	800	1500	1	1
-simulator.gui.SignalPresentation	300	3	161	220	200	220
-simulator.gui.StringPresentation	-1	3	50	210	!RDBUS
-simulator.gui.SignalPresentation	301	3	310	220	400	220
-simulator.gui.SignalPresentation	301	3	350	220	350	105	600	105
-simulator.gui.SignalPresentation	302	3	310	300	350	300	350	340	515	340	515	310	560	310	560	250	600	250
-simulator.gui.SignalPresentation	303	3	510	220	600	220
-simulator.gui.SignalPresentation	304	3	510	300	550	300	550	135	600	135
-simulator.gui.SignalPresentation	307	3	161	420	200	420
-simulator.gui.StringPresentation	-1	3	50	410	!WRBUS
-simulator.gui.SignalPresentation	308	3	310	420	400	420
-simulator.gui.SignalPresentation	308	3	350	420	350	370	525	370	525	320	575	320	575	305	600	305
-simulator.gui.SignalPresentation	309	3	310	500	350	500	350	550	560	550	560	450	600	450
-simulator.gui.SignalPresentation	310	3	510	420	600	420
-simulator.gui.SignalPresentation	311	3	510	500	550	500	550	335	600	335
-simulator.gui.StringPresentation	-1	3	315	215	RDF
-simulator.gui.StringPresentation	-1	3	315	415	WRF
-simulator.gui.StringPresentation	-1	3	675	124	JRD
-simulator.gui.StringPresentation	-1	3	675	239	NRD
-simulator.gui.StringPresentation	-1	3	675	324	JWR
-simulator.gui.StringPresentation	-1	3	675	439	NWR
-simulator.gui.SignalPresentation	314	3	250	720	250	810	160	810
-simulator.gui.StringPresentation	-1	3	165	637	RDF
-simulator.gui.StringPresentation	-1	3	165	670	WRF
-simulator.gui.StringPresentation	-1	3	563	613	JRD
-simulator.gui.StringPresentation	-1	3	563	642	JWR
-simulator.gui.SignalPresentation	316	3	660	620	700	620
-simulator.gui.SignalPresentation	317	3	810	620	960	620	960	660
-simulator.gui.SignalPresentation	318	3	610	700	700	700
-simulator.gui.SignalPresentation	319	3	360	950	500	950
-simulator.gui.SignalPresentation	319	3	400	950	400	700	500	700
-simulator.gui.SignalPresentation	320	3	610	870	825	870	825	670	850	670
-simulator.gui.SignalPresentation	321	3	910	670	930	670
-simulator.gui.StringPresentation	-1	3	270	974	NWR
-simulator.gui.StringPresentation	-1	3	270	946	NRD
-simulator.gui.SignalPresentation	322	3	860	1020	1000	1020
-simulator.gui.SignalPresentation	323	3	910	1100	1000	1100
-simulator.gui.StringPresentation	-1	3	768	1106	NRD
-simulator.gui.StringPresentation	-1	3	750	1046	fcMEM
-simulator.gui.StringPresentation	-1	3	768	1015	RDF
-simulator.gui.StringPresentation	-1	3	1124	1027	EDATA
-simulator.gui.SignalPresentation	324	3	900	1560	930	1560	930	1640	330	1640	330	1350	350	1350
-simulator.gui.SignalPresentation	324	3	450	1435	330	1435
-simulator.gui.SignalPresentation	324	3	330	1640	170	1640	170	1400	200	1400
-simulator.gui.SignalPresentation	325	3	160	1320	200	1320
-simulator.gui.SignalPresentation	326	3	310	1320	450	1320
-simulator.gui.SignalPresentation	326	3	320	1320	320	1405	450	1405
-simulator.gui.SignalPresentation	327	3	510	1335	600	1335
-simulator.gui.SignalPresentation	328	3	510	1420	800	1420	800	1335	760	1335
-simulator.gui.SignalPresentation	329	3	678	1390	678	1540	800	1540
-simulator.gui.SignalPresentation	330	3	800	1580	578	1580
-simulator.gui.SignalPresentation	332	3	410	1350	450	1350
-simulator.gui.StringPresentation	-1	3	910	1550	fcMEM
-simulator.gui.StringPresentation	-1	3	60	1315	JRD
-simulator.gui.StringPresentation	-1	3	60	1345	JWR
+simulator.gui.MemModulePresentation	300	3	600	100	1	1
+simulator.gui.TriStateBufferPresentation	301	3	200	400	1	1
+simulator.gui.NotComponentPresentation	302	3	300	50	1	1
+simulator.gui.NotComponentPresentation	303	3	300	200	1	1
+simulator.gui.StringPresentation	-1	3	263	415	0
+simulator.gui.StringPresentation	-1	3	230	443	fcMEM
+simulator.gui.StringPresentation	-1	3	150	415	#FCBUS
+simulator.gui.StringPresentation	-1	3	250	75	#RDBUS
+simulator.gui.StringPresentation	-1	3	250	228	#WRBUS
+simulator.gui.SignalPresentation	302	3	360	70	554	70	554	130	600	130
+simulator.gui.SignalPresentation	303	3	360	220	554	220	554	160	600	160
+simulator.gui.TriStateBufferPresentationRight	304	3	700	300	1	1
+simulator.gui.SignalPresentation	304	3	650	222	650	311	714	311
+simulator.gui.StringPresentation	-1	3	730	291	fcMEM
+simulator.gui.SignalPresentation	21	3	900	200	900	400
+simulator.gui.SignalPresentation	21	3	743	310	900	310
+simulator.gui.StringPresentation	-1	3	905	305	DBUS
+simulator.gui.SignalPresentation	21	3	733	221	900	221
+simulator.gui.SignalPresentation	20	3	800	50	1000	50
+simulator.gui.StringPresentation	-1	3	886	43	ABUS
+simulator.gui.SignalPresentation	20	3	800	160	900	160	900	50
+simulator.gui.RegisterComponentPresentation	306	3	500	500	1	1
+simulator.gui.RegisterComponentPresentation	307	3	500	650	1	1
+simulator.gui.RectanglePresentation	-1	3	800	600	100	100
+simulator.gui.StringPresentation	-1	3	838	653	CMP
+simulator.gui.SignalPresentation	306	3	578	594	578	630	800	630
+simulator.gui.SignalPresentation	307	3	578	743	700	743	700	670	800	670
+simulator.gui.SignalPresentation	308	3	900	650	940	650
+simulator.gui.StringPresentation	-1	3	943	653	fcMEM
+simulator.gui.OrComponentPresentation	309	3	300	500	1	1
+simulator.gui.AndComponentPresentation	310	3	400	520	1	1
+simulator.gui.NotComponentPresentation	311	3	300	570	1	1
+simulator.gui.StringPresentation	-1	3	400	69	rdMEM
+simulator.gui.StringPresentation	-1	3	400	219	wrMEM
+simulator.gui.StringPresentation	-1	3	263	508	rdMEM
+simulator.gui.StringPresentation	-1	3	263	538	wrMEM
+simulator.gui.StringPresentation	-1	3	263	594	fcMEM
+simulator.gui.StringPresentation	-1	3	665	540	fcMEM
+simulator.gui.StringPresentation	-1	3	575	497	0
+simulator.gui.SignalPresentation	309	3	360	520	378	520	378	525	400	525
+simulator.gui.SignalPresentation	310	3	360	590	400	590	400	555
+simulator.gui.SignalPresentation	311	3	460	540	480	540	480	535	500	535

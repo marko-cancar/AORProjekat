@@ -7,3 +7,5 @@ simulator.digitalcomponents.TriStateBuffer	506	16	Dout
 simulator.digitalcomponents.ZeroRegisterComponent	507	8	0
 simulator.digitalcomponents.Composer	CpzMDR	508	8	2
 simulator.digitalcomponents.Composer	CpzD	509	8	2
+simulator.digitalcomponents.TriStateBuffer	510	1	rd
+simulator.digitalcomponents.TriStateBuffer	511	1	wr
