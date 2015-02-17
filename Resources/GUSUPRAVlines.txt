@@ -21,5 +21,31 @@ simulator.gui.StringPresentation	-1	12	223	544	brNotBrpom
 simulator.gui.StringPresentation	-1	12	223	574	brNotPrekid
 simulator.gui.StringPresentation	-1	12	223	604	bradr
 simulator.gui.StringPresentation	-1	12	223	634	bropr
-simulator.gui.OrComponentPresentation	1032	12	400	300	1	1
-simulator.gui.StringPresentation	-1	12	465	324	brcnd
+simulator.gui.OrComponentPresentation	1032	12	900	300	1	1
+simulator.gui.StringPresentation	-1	12	965	324	brcnd
+simulator.gui.AndComponentPresentation	1033	12	500	100	1	1
+simulator.gui.NotComponentPresentation	1034	12	400	100	1	1
+simulator.gui.StringPresentation	-1	12	365	124	fcCPU
+simulator.gui.StringPresentation	-1	12	430	144	brNotCRP
+simulator.gui.SignalPresentation	103400	12	460	120	500	105
+simulator.gui.SignalPresentation	103300	12	560	120	900	350
+simulator.gui.AndComponentPresentation	1035	12	500	200	1	1
+simulator.gui.StringPresentation	-1	12	475	208	brL1
+simulator.gui.StringPresentation	-1	12	475	238	l1
+simulator.gui.SignalPresentation	103500	12	560	220	900	365
+simulator.gui.AndComponentPresentation	1036	12	500	300	1	1
+simulator.gui.StringPresentation	-1	12	445	308	brL2Brnch
+simulator.gui.StringPresentation	-1	12	450	338	l2_brnch
+simulator.gui.SignalPresentation	103600	12	560	320	900	380
+simulator.gui.AndComponentPresentation	1037	12	500	400	1	1
+simulator.gui.StringPresentation	-1	12	442	408	brL2Arlog
+simulator.gui.StringPresentation	-1	12	450	438	l2_arlog
+simulator.gui.SignalPresentation	103700	12	560	420	900	395
+simulator.gui.AndComponentPresentation	1038	12	500	500	1	1
+simulator.gui.StringPresentation	-1	12	442	508	brL3Brnch
+simulator.gui.StringPresentation	-1	12	450	538	l3_jump
+simulator.gui.SignalPresentation	103800	12	560	520	900	410
+simulator.gui.AndComponentPresentation	1039	12	500	600	1	1
+simulator.gui.StringPresentation	-1	12	442	608	brL3Arlog
+simulator.gui.StringPresentation	-1	12	450	638	l3_arlog
+simulator.gui.SignalPresentation	103900	12	560	620	900	425

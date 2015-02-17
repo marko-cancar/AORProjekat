@@ -4,3 +4,5 @@ simulator.SignalSimle	503	DHout
 simulator.SignalSimle	505	ComposerDout
 simulator.SignalSimle	506	Zeroes
 simulator.SignalSimle	507	ComposerMDRout
+simulator.SignalSimle	508	fcCPU
+simulator.SignalSimle	509	orldMDR

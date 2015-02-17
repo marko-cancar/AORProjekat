@@ -20,9 +20,9 @@ simulator.gui.SignalPresentation	503	5	778	591	778	708	330	708
 simulator.gui.SignalPresentation	505	5	302	697	322	697
 simulator.gui.SignalPresentation	600	5	200	697	239	697
 simulator.gui.StringPresentation	-1	5	358	138	incMAR
-simulator.gui.StringPresentation	-1	5	565	138	ldMAR
+simulator.gui.StringPresentation	-1	5	561	139	ldMAR
 simulator.gui.StringPresentation	-1	5	565	159	CLK
-simulator.gui.StringPresentation	-1	5	565	338	ldMDR
+simulator.gui.StringPresentation	-1	5	661	95	ldMDR
 simulator.gui.StringPresentation	-1	5	565	359	CLK
 simulator.gui.StringPresentation	-1	5	565	538	ldDL
 simulator.gui.StringPresentation	-1	5	865	538	ldDH
@@ -36,3 +36,9 @@ simulator.gui.StringPresentation	-1	5	930	142	rd
 simulator.gui.StringPresentation	-1	5	930	203	wr
 simulator.gui.StringPresentation	-1	5	850	115	#RDBUS
 simulator.gui.StringPresentation	-1	5	850	175	#WRBUS
+simulator.gui.NotComponentPresentation	512	5	600	30	1	1
+simulator.gui.StringPresentation	-1	5	547	55	#FCBUS
+simulator.gui.OrComponentPresentation	513	5	700	55	1	1
+simulator.gui.SignalPresentation	508	5	661	50	682	50	682	60	700	60
+simulator.gui.StringPresentation	-1	5	675	44	fcCPU
+simulator.gui.SignalPresentation	509	5	760	75	760	335	561	335

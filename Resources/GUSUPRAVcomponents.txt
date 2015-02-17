@@ -1,3 +1,10 @@
 simulator.digitalcomponents.Decomposer	DcmpzCW1	1030	8
 simulator.digitalcomponents.Decoder	DC1	1031	5
 simulator.digitalcomponents.OrGate	1032	14
+simulator.digitalcomponents.AndGate	1033	2
+simulator.digitalcomponents.NotGate	1034
+simulator.digitalcomponents.AndGate	1035	2
+simulator.digitalcomponents.AndGate	1036	2
+simulator.digitalcomponents.AndGate	1037	2
+simulator.digitalcomponents.AndGate	1038	2
+simulator.digitalcomponents.AndGate	1039	2

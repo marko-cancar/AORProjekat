@@ -1,8 +1,8 @@
-simulator.digitalcomponents.RegisterComponent	PC	600	16	3
+simulator.digitalcomponents.RegisterComponent	PC	600	16	0
 simulator.digitalcomponents.TriStateBuffer	601	16	PCout
-simulator.digitalcomponents.RegisterComponent	IR1	602	8	-59
+simulator.digitalcomponents.RegisterComponent	IR1	602	8	0
 simulator.digitalcomponents.TriStateBuffer	603	16	IR1out
-simulator.digitalcomponents.RegisterComponent	IR2	604	8	64
+simulator.digitalcomponents.RegisterComponent	IR2	604	8	0
 simulator.digitalcomponents.TriStateBuffer	605	16	IR2out
 simulator.digitalcomponents.RegisterComponent	IR3	606	8	0
 simulator.digitalcomponents.TriStateBuffer	607	16	IR3out

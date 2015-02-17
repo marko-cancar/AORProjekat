@@ -24,3 +24,10 @@ simulator.SignalSimle	103115	brNotPrekid
 simulator.SignalSimle	103116	bradr
 simulator.SignalSimle	103117	bropr
 simulator.SignalSimle	103200	brcnd
+simulator.SignalSimle	103300	waitMem
+simulator.SignalSimle	103400	notFcCPU
+simulator.SignalSimle	103500	l1
+simulator.SignalSimle	103600	l2brnch
+simulator.SignalSimle	103700	l2arlog
+simulator.SignalSimle	103800	l3brnch
+simulator.SignalSimle	103900	l3arlog

@@ -1,5 +1,5 @@
 simulator.digitalcomponents.RegisterComponent	MAR	500	16	0
-simulator.digitalcomponents.RegisterComponent	MDR	501	8	10
+simulator.digitalcomponents.RegisterComponent	MDR	501	8	0
 simulator.digitalcomponents.RegisterComponent	DL	502	8	0
 simulator.digitalcomponents.RegisterComponent	DH	503	8	0
 simulator.digitalcomponents.TriStateBuffer	505	16	MDRout
@@ -9,3 +9,5 @@ simulator.digitalcomponents.Composer	CpzMDR	508	8	2
 simulator.digitalcomponents.Composer	CpzD	509	8	2
 simulator.digitalcomponents.TriStateBuffer	510	1	rd
 simulator.digitalcomponents.TriStateBuffer	511	1	wr
+simulator.digitalcomponents.NotGate	512
+simulator.digitalcomponents.OrGate	513	2
