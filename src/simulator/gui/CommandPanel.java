@@ -1,19 +1,13 @@
 package simulator.gui;
 
-import java.awt.Color;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.*;
+import java.awt.event.*;
 
-import javax.swing.JButton;
-import javax.swing.JDialog;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
+import javax.swing.*;
 
-import simulator.CommandExecutor;
-import simulator.ControlUnit;
-import simulator.Simulator;
-import simulator.dialogs.Mem;
+import simulator.*;
+import simulator.dialogs.*;
+import simulator.digitalcomponents.MicroMem;
 
 public class CommandPanel extends JPanel {
 
@@ -27,27 +21,29 @@ public class CommandPanel extends JPanel {
 	private ControlUnit controlUnit;
 	private JLabel clkLabel;
 	private int clk;
+	private JLabel upravCommand;
 	
 	public CommandPanel(JFrame guiFrame, Simulator simulator) {
 		super();
 		this.parent = guiFrame;
 		this.setSize(490, 390);
+		this.setLayout(new GridLayout(10,1));
 		setBackground(Color.WHITE);
-
 		JButton button = new JButton("Next");
 		button.addActionListener(new MyActionListener());
 		add(button);
-		
 		JButton mem = new JButton("Mem");
 		mem.addActionListener(new MemActionListener());
+		add(new JLabel());
 		add(mem);
-
 		this.simulator = simulator;
 		commandExecutor = new CommandExecutor(simulator);
 		controlUnit = new ControlUnit(simulator);
-		clkLabel = new JLabel("CLK: 0");
+		clkLabel = new JLabel("CLK: 0",JLabel.CENTER);
 		clk = -1;
 		add(clkLabel);
+		upravCommand = new JLabel("",JLabel.CENTER);
+		add(upravCommand);
 	}
 	
 	private int interval = 1;
@@ -66,9 +62,19 @@ public class CommandPanel extends JPanel {
 			   simulator.simulate(simulator.getCurrentTime() + interval - 1);
 			   //((TimeDrivenSimulator)simulator).updateSignals();
 			   interval = 20;
+			   
 			   clk++;
 			   clkLabel.setText("CLK: "+clk);
+			   int mPcVal = controlUnit.portIntValue(1000, 5);
+			   String text = MicroMem.viewerOutputStrings.get(mPcVal);
+			   String labelText = String.format("<html><div WIDTH=%d>%s</div><html>", 170, text);
+			   upravCommand.setText(labelText);
+			   
 			   parent.repaint();
+			   
+			   
+			   System.out.println(MicroMem.viewerOutputStrings.get(10));
+			   System.out.println(MicroMem.viewerOutputStrings.get(88));
 		}
 	}
 	

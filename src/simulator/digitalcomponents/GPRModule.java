@@ -57,7 +57,7 @@ public class GPRModule extends LogicComponentSimple {
 		}
 		for(int i=0; i<64; i++){
 			MultipleDigitalValue mdv = new MultipleDigitalValue(16);
-			mdv.setIntValue(0);
+			mdv.setIntValue(i*10+1);
 			registers.add(mdv);
 		}
 		Port out = ports.get(3);

@@ -9,6 +9,7 @@ public class ControlUnit {
 	State state = State.state0;
 	private Simulator simulator;
 	
+
 	public ControlUnit(Simulator simulator){
 		this.simulator = simulator;
 	}
@@ -19,6 +20,20 @@ public class ControlUnit {
 			if(component.getId() == componentID){
 				Port port = component.getPort(portIndex);
 				return port.getValue().getBooleanValue();
+			}
+		}
+		throw new RuntimeException("Component with ID " + componentID + " not found.");
+	}
+	
+	public int portIntValue(int componentID, int portIndex) throws RuntimeException{
+		List<LogicComponent> components = simulator.getNetlist().getComponents();
+		for(LogicComponent component : components){
+			if(component.getId() == componentID){
+				Port port = component.getPort(portIndex);
+				if(port.getValue().getUIntValue() == 0x90){
+					System.out.println("90 JE;");
+				}
+				return port.getValue().getUIntValue();
 			}
 		}
 		throw new RuntimeException("Component with ID " + componentID + " not found.");

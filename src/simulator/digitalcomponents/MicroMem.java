@@ -14,7 +14,7 @@ public class MicroMem extends LogicComponentSimple {
 	private static ArrayList<String[]> programStrings;
 	private static HashMap<String, Integer> conditionsMap1007;
 	private static HashMap<String, String> signalsMap;
-	private static ArrayList<String> viewerOutputStrings;
+	public static ArrayList<String> viewerOutputStrings;
 	
 	static{
 		loadConditions1007Map();
